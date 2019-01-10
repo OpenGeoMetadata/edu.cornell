@@ -13,9 +13,8 @@
     </citation>
     <descript>
       <abstract>Topographic contours at intervals of 2 feet, covering the
-                Town and City of Ithaca in Tompkins County, New York. These
-                elevation contours were derived from LiDAR data collected in May
-                2008.</abstract>
+                Town and City of Ithaca in Tompkins County, New York. These elevation contours were derived from May 2008 LiDAR data,
+        with points using the NAVD88 vertical datum later converted to feet.</abstract>
       <purpose>This data was originally collected for the purpose of
                 providing support for FEMA's Floodplain Map Modernization
                 Program.</purpose>
@@ -270,7 +269,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>24.02</transize>
+              <transize>23.99</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -354,7 +353,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20180529</metd>
       <metc>
         <cntinfo>
           <cntorgp>

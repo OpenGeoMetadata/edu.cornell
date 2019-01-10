@@ -6,12 +6,12 @@
       <citeinfo>
         <origin>U.S. Geological Survey</origin>
         <pubdate>2006</pubdate>
-        <title>NLCD Urban Imperviousness, New York, 2001</title>
+        <title>NLCD Developed Imperviousness, New York, 2001</title>
         <edition>2011 Edition, amended 2014</edition>
         <geoform>raster digital data</geoform>
         <serinfo>
           <sername>National Land Cover Database</sername>
-          <issue>2001 Urban Imperviousness</issue>
+          <issue>2001 Percent Developed Imperviousness</issue>
         </serinfo>
         <pubinfo>
           <pubplace>Sioux Falls, SD</pubplace>
@@ -68,10 +68,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-80.035679</westbc>
-            <eastbc>-70.516586</eastbc>
+            <westbc>-80.035689</westbc>
+            <eastbc>-70.516534</eastbc>
             <northbc>45.847801</northbc>
-            <southbc>40.086478</southbc>
+            <southbc>40.086438</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -220,7 +220,7 @@
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>15.35</transize>
+              <transize>15.37</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -268,7 +268,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008004&amp;bbox=-80.32125179,39.91363831,-70.23101321,46.02064069&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008004&amp;bbox=-80.32126365,39.91359711,-70.23095935,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -276,7 +276,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20180504</metd>
       <metc>
         <cntinfo>
           <cntorgp>

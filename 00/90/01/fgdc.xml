@@ -6,7 +6,7 @@
       <citeinfo>
         <origin>Mann Library, Cornell University</origin>
         <pubdate>20171205</pubdate>
-        <title>USGS Topographic Maps, New York State, 2000</title>
+        <title>Index of USGS Topographic Maps, New York State, 2000</title>
         <geoform>raster digital data</geoform>
         <pubinfo>
           <pubplace>Ithaca, New York</pubplace>
@@ -16,7 +16,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This index provides access to county-wide mosaics of USGS topographic maps.  Map images were derived from scans of USGS
+      <abstract>This shapefile is an index of county-based mosaics of USGS topographic maps.  Map images were derived from scans of USGS
         7.5 minute quadrangle maps (Digital Raster Graphics) circa 2000. The images form a
         set of seamless tiles, 5,000 m on a side, from which the map collar
         information was removed. Images are GeoTIFF files in NAD83, UTM zone 18.</abstract>
@@ -73,6 +73,7 @@
         <themekey>Digital Raster Graphic</themekey>
         <themekey>basemaps</themekey>
         <themekey>topographic maps</themekey>
+        <themekey>topo maps</themekey>
         <themekey>index map</themekey>
       </theme>
       <theme>
@@ -376,7 +377,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171211</metd>
+      <metd>20180220</metd>
       <metc>
         <cntinfo>
           <cntorgp>

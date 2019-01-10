@@ -6,11 +6,11 @@
       <citeinfo>
         <origin>New York State. Department of Environmental Conservation.</origin>
         <pubdate>2000</pubdate>
-        <title>Surface Water Areas, Owego-Wappesening sub-basin, 2000</title>
+        <title>Surface Water Areas, Owego-Wappasening sub-basin, 2000</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Large Scale Hydrography Surface Water Areas</sername>
-          <issue>Owego-Wappesening sub-basin</issue>
+          <issue>Owego-Wappasening sub-basin</issue>
         </serinfo>
         <pubinfo>
           <pubplace>Albany, NY</pubplace>
@@ -66,7 +66,7 @@
             </theme>
       <place>
         <placekt>None</placekt>
-        <placekey>Owego-Wappesening sub-basin (02050103)</placekey>
+        <placekey>Owego-Wappasening sub-basin (02050103)</placekey>
       </place>
     </keywords>
     <accconst>None</accconst>
@@ -218,7 +218,7 @@
               <formname>E00</formname>
               <formcont>zipped Arc/Info .e00 file</formcont>
               <filedec>zip</filedec>
-              <transize>1.84</transize>
+              <transize>1.83</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -260,7 +260,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20180220</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -4,13 +4,10 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>New York State Department of Energy Conservation Bureau of Air Quality Surveillance</origin>
+        <origin>New York State Department of Energy Conservation. Bureau of Air Quality Surveillance</origin>
         <pubdate>200006</pubdate>
         <title>Air Monitoring Stations, Adirondack Park, 2000</title>
         <geoform>vector digital data</geoform>
-        <pubinfo>
-          <publish>Geographic Data Presentation Form: Map</publish>
-        </pubinfo>
         <onlink>https://cugir.library.cornell.edu/catalog/cugir-007741</onlink>
       </citeinfo>
     </citation>
@@ -214,7 +211,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20181210</metd>
       <metc>
         <cntinfo>
           <cntorgp>

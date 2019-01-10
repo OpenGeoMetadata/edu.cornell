@@ -751,7 +751,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>8.10</transize>
+              <transize>8.02</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -835,7 +835,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20180420</metd>
       <metc>
         <cntinfo>
           <cntorgp>

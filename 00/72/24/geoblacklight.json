@@ -1,7 +1,7 @@
 {
     "geoblacklight_version": "1.0", 
     "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-007224", 
-    "dc_title_s": "Hydrography Network, Hackensak-Passaic sub-basin, 2000", 
+    "dc_title_s": "Hydrography Network, Hackensack-Passaic sub-basin, 2000", 
     "dc_description_s": "Large scale hydrography network tiled by Watershed Boundary Dataset (WBD) sub-basin. Stream network extracted from New York State Large Scale Hydrography. Artificial paths and connectors added as needed to create a continuous network. Stream names from USGS 7.5 Minute Topographic Maps.  Continuous hydrography network for mapping and modeling. Base data for creation of high resolution National Hydrography Dataset (NHD).", 
     "dc_rights_s": "Public", 
     "dct_provenance_s": "Cornell", 
@@ -11,9 +11,9 @@
     "layer_slug_s": "cugir-007224", 
     "dc_type_s": "Dataset", 
     "dc_format_s": "E00", 
-    "cugir_filesize_s": "0.54 MB", 
+    "cugir_filesize_s": "0.52 MB", 
     "layer_geom_type_s": "Line", 
-    "layer_modified_dt": "2017-10-05T00:00:00Z", 
+    "layer_modified_dt": "2018-02-20T00:00:00Z", 
     "dc_creator_sm": [
         "New York State. Department of Environmental Conservation."
     ], 
@@ -30,7 +30,7 @@
         "inland waters"
     ], 
     "dct_spatial_sm": [
-        "Hackensak-Passaic sub-basin (02030103)"
+        "Hackensack-Passaic sub-basin (02030103)"
     ], 
     "dct_issued_s": "2000", 
     "dct_temporal_sm": [

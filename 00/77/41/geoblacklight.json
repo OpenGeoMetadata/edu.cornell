@@ -13,12 +13,9 @@
     "dc_format_s": "Shapefile", 
     "cugir_filesize_s": "0.01 MB", 
     "layer_geom_type_s": "Point", 
-    "layer_modified_dt": "2017-10-13T00:00:00Z", 
+    "layer_modified_dt": "2018-12-10T00:00:00Z", 
     "dc_creator_sm": [
-        "New York State Department of Energy Conservation Bureau of Air Quality Surveillance"
-    ], 
-    "dc_publisher_sm": [
-        "Geographic Data Presentation Form: Map"
+        "New York State Department of Energy Conservation. Bureau of Air Quality Surveillance"
     ], 
     "dc_subject_sm": [
         "Air quality monitoring stations", 

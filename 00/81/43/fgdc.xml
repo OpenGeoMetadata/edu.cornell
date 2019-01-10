@@ -12,12 +12,11 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Topographic contours at intervals of 2 feet, covering the
-                Town of Caroline in Tompkins County, New York. These elevation
-                contours were derived from LiDAR data collected in May 2008.</abstract>
-      <purpose>This data was originally collected for the purpose of
-                providing support for FEMA's Floodplain Map Modernization
-                Program.</purpose>
+      <abstract>Topographic contours at intervals of 2 feet, covering the Town of Caroline in
+        Tompkins County, New York. These elevation contours were derived from May 2008 LiDAR data,
+        with points using the NAVD88 vertical datum later converted to feet.</abstract>
+      <purpose>This data was originally collected for the purpose of providing support for FEMA's
+        Floodplain Map Modernization Program.</purpose>
     </descript>
     <timeperd>
       <timeinfo>
@@ -89,53 +88,43 @@
   </idinfo>
   <dataqual>
     <logic>Unknown</logic>
-    <complete>The shapefile covers all areas within a 500-foot buffer around
-            the Town of Caroline.</complete>
+    <complete>The shapefile covers all areas within a 500-foot buffer around the Town of
+      Caroline.</complete>
     <posacc>
       <horizpa>
-        <horizpar>The original LiDAR data horizontal accuracy is in
-                    compliance with the National Standard for Spatial Data
-                    Accuracy (NSSDA) RMSE estimation of elevation data in
-                    support of 2ft. contour mapping products as it is referenced
-                    in the FEMA guidelines for flood hazard mapping, appendix A.</horizpar>
+        <horizpar>The original LiDAR data horizontal accuracy is in compliance with the National
+          Standard for Spatial Data Accuracy (NSSDA) RMSE estimation of elevation data in support of
+          2ft. contour mapping products as it is referenced in the FEMA guidelines for flood hazard
+          mapping, appendix A.</horizpar>
         <qhorizpa>
           <horizpav>1.000 m RMSE</horizpav>
-          <horizpae>Horizontal error associated with this LiDAR data
-                        set is a function of several variables including
-                        acquisition parameters and practices, system
-                        calibration, GPS reference station coordinates, and
-                        GPS/INS post processing.</horizpae>
+          <horizpae>Horizontal error associated with this LiDAR data set is a function of several
+            variables including acquisition parameters and practices, system calibration, GPS
+            reference station coordinates, and GPS/INS post processing.</horizpae>
         </qhorizpa>
       </horizpa>
       <vertacc>
-        <vertaccr>The original LiDAR data vertical accuracy is in
-                    compliance with the National Standard for Spatial Data
-                    Accuracy (NSSDA) RMSE estimation of elevation data in
-                    support of 2ft. contour mapping products as it is referenced
-                    in the FEMA guidelines for flood hazard mapping, appendix A.
-                    The Institute of Applied Geospatial Technology performed a
-                    ground control analysis of the Tompkins County LiDAR data
-                    using ground control checkpoints in several land cover
-                    classes and found the resultant RMSE in the exposed ground
-                    class to be within the contract specifications of 0.185
-                    meters.</vertaccr>
+        <vertaccr>The original LiDAR data vertical accuracy is in compliance with the National
+          Standard for Spatial Data Accuracy (NSSDA) RMSE estimation of elevation data in support of
+          2ft. contour mapping products as it is referenced in the FEMA guidelines for flood hazard
+          mapping, appendix A. The Institute of Applied Geospatial Technology performed a ground
+          control analysis of the Tompkins County LiDAR data using ground control checkpoints in
+          several land cover classes and found the resultant RMSE in the exposed ground class to be
+          within the contract specifications of 0.185 meters.</vertaccr>
         <qvertpa>
           <vertaccv>0.185 m RMSE</vertaccv>
-          <vertacce>Vertical error associated with this LiDAR data set
-                        is a function of several variables including acquisition
-                        parameters and practices, system calibration, GPS
-                        reference station coordinates, and GPS/INS post
-                        processing.</vertacce>
+          <vertacce>Vertical error associated with this LiDAR data set is a function of several
+            variables including acquisition parameters and practices, system calibration, GPS
+            reference station coordinates, and GPS/INS post processing.</vertacce>
         </qvertpa>
       </vertacc>
     </posacc>
     <lineage>
       <procstep>
-        <procdesc>Topographic contour lines from county-wide ESRI file
-                    geodatabase were converted to a shapefile, then simplified
-                    (generalized) using a tolerance of 0.5 feet, then clipped to
-                    the Town's 500-foot buffer. Extraneous columns were removed
-                    from the attribute table.</procdesc>
+        <procdesc>Topographic contour lines from county-wide ESRI file geodatabase were converted to
+          a shapefile, then simplified (generalized) using a tolerance of 0.5 feet, then clipped to
+          the Town's 500-foot buffer. Extraneous columns were removed from the attribute
+          table.</procdesc>
         <procdate>20111207</procdate>
         <proccont>
           <cntinfo>
@@ -169,8 +158,7 @@
     <horizsys>
       <planar>
         <mapproj>
-          <mapprojn>NAD 1983 StatePlane New York Central FIPS 3102
-                        Feet</mapprojn>
+          <mapprojn>NAD 1983 StatePlane New York Central FIPS 3102 Feet</mapprojn>
           <transmer>
             <sfctrmer>0.9999375</sfctrmer>
             <longcm>-76.58333333333333</longcm>
@@ -267,7 +255,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>37.66</transize>
+              <transize>37.63</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -351,7 +339,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20180529</metd>
       <metc>
         <cntinfo>
           <cntorgp>

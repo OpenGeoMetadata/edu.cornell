@@ -11,9 +11,9 @@
     "layer_slug_s": "cugir-008161", 
     "dc_type_s": "Dataset", 
     "dc_format_s": "Shapefile", 
-    "cugir_filesize_s": "8.10 MB", 
+    "cugir_filesize_s": "8.02 MB", 
     "layer_geom_type_s": "Polygon", 
-    "layer_modified_dt": "2017-10-13T00:00:00Z", 
+    "layer_modified_dt": "2018-04-20T00:00:00Z", 
     "dc_creator_sm": [
         "Tompkins County ITS GIS Division", 
         "Tompkins County Assessment Department"

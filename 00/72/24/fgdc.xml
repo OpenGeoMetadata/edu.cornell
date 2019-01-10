@@ -6,11 +6,11 @@
       <citeinfo>
         <origin>New York State. Department of Environmental Conservation.</origin>
         <pubdate>2000</pubdate>
-        <title>Hydrography Network, Hackensak-Passaic sub-basin, 2000</title>
+        <title>Hydrography Network, Hackensack-Passaic sub-basin, 2000</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Large Scale Hydrography Network</sername>
-          <issue>Hackensak-Passaic sub-basin</issue>
+          <issue>Hackensack-Passaic sub-basin</issue>
         </serinfo>
         <pubinfo>
           <pubplace>Albany, NY</pubplace>
@@ -62,7 +62,7 @@
             </theme>
       <place>
         <placekt>None</placekt>
-        <placekey>Hackensak-Passaic sub-basin (02030103)</placekey>
+        <placekey>Hackensack-Passaic sub-basin (02030103)</placekey>
       </place>
     </keywords>
     <accconst>None</accconst>
@@ -241,7 +241,7 @@
               <formname>E00</formname>
               <formcont>zipped Arc/Info .e00 file</formcont>
               <filedec>zip</filedec>
-              <transize>0.54</transize>
+              <transize>0.52</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -283,7 +283,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20180220</metd>
       <metc>
         <cntinfo>
           <cntorgp>
