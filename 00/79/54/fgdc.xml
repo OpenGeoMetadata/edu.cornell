@@ -6,8 +6,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20130225</pubdate>
-        <title>Agricultural Districts, Chemung County NY, 2013</title>
+        <pubdate>20190405</pubdate>
+        <title>Agricultural Districts, Chemung County NY, 2019</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -24,10 +24,12 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps. The data files are in
-        ArcGIS shapefile format.</abstract>
+        those additions. When annual additions are included, an additional field (OEadds303b) is
+        annexed to the attribute table; the dates of the annual additions listed in that field. Tax
+        parcel detail and secondary rights-of-way are not included in this dataset. Rights-of-way
+        for state and federal highways, railroads and utilities are only included when they are
+        delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile
+        format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -42,12 +44,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20130225</caldate>
+          <caldate>20190405</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -58,10 +60,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-76.966009</westbc>
-            <eastbc>-76.544565</eastbc>
-            <northbc>42.293686</northbc>
-            <southbc>42.000499</southbc>
+            <westbc>-76.965767</westbc>
+            <eastbc>-76.53707</eastbc>
+            <northbc>42.293693</northbc>
+            <southbc>42.000565</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -69,7 +71,6 @@
         <themekt>None</themekt>
         <themekey>New York State Agricultural District boundaries</themekey>
         <themekey>Agriculture and Markets</themekey>
-        <themekey>Agricultural Districts Mapping Program</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -168,27 +169,13 @@
         <typesrc>Hard copy on Mylar, vellum or paper; digital on CD-ROM.</typesrc>
         <srctime>
           <timeinfo>
-            <mdattim>
-              <sngdate>
-                <caldate>20120330 (district #1)</caldate>
-              </sngdate>
-              <sngdate>
-                <caldate>20011228 (district #2)</caldate>
-              </sngdate>
-              <sngdate>
-                <caldate>20070611 (district #3)</caldate>
-              </sngdate>
-              <sngdate>
-                <caldate>20071227 (district #4)</caldate>
-              </sngdate>
-              <sngdate>
-                <caldate>20100505 (district #5)</caldate>
-              </sngdate>
-            </mdattim>
+            <sngdate>
+              <caldate>20190103 (Consolidated Agricultural District)</caldate>
+            </sngdate>
           </timeinfo>
           <srccurr>8-year certification date</srccurr>
         </srctime>
-        <srccitea>none</srccitea>
+        <srccitea>agCHEM</srccitea>
         <srccontr>original district boundaries</srccontr>
       </srcinfo>
       <procstep>
@@ -269,7 +256,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20120331 through 20180531</procdate>
+        <procdate>20180401 through 20190331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -297,7 +284,7 @@
         <ptvctinf>
           <sdtsterm>
             <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>275</ptvctcnt>
+            <ptvctcnt>488</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -337,7 +324,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>agCHEM2013</enttypl>
+        <enttypl>agCHEM2019</enttypl>
         <enttypd>Agricultural districts are lands that are under the protection of NYS Agricultural
           District Law, administered by the New York State Department of Agriculture and
           Markets.</enttypd>
@@ -428,7 +415,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>1.15</transize>
+              <transize>2.82</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -490,7 +477,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/54/agCHEM2013.kmz</networkr>
+                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/54/agCHEM2019.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -518,7 +505,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007954&amp;bbox=-76.97865232,41.99170339,-76.53192168,42.30248161&amp;width=256&amp;height=178&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007954&amp;bbox=-76.97862791,41.99177116,-76.52420909,42.30248684&amp;width=256&amp;height=175&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -560,7 +547,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180612</metd>
+      <metd>20190408</metd>
       <metc>
         <cntinfo>
           <cntorgp>

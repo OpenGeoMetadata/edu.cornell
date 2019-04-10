@@ -7,7 +7,7 @@
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
         <pubdate>20140228</pubdate>
-        <title>Agricultural Districts, Jefferson County, 2017</title>
+        <title>Agricultural Districts, Jefferson County NY, 2019</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -24,10 +24,12 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps. The data files are in
-        ArcGIS shapefile format.</abstract>
+        those additions. When annual additions are included, an additional field (OEadds303b) is
+        annexed to the attribute table; the dates of the annual additions listed in that field. Tax
+        parcel detail and secondary rights-of-way are not included in this dataset. Rights-of-way
+        for state and federal highways, railroads and utilities are only included when they are
+        delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile
+        format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -42,12 +44,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20140228</caldate>
+          <caldate>20190405</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -61,7 +63,7 @@
             <westbc>-76.366808</westbc>
             <eastbc>-75.507717</eastbc>
             <northbc>44.375889</northbc>
-            <southbc>43.674163</southbc>
+            <southbc>43.668925</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -69,7 +71,6 @@
         <themekt>None</themekt>
         <themekey>New York State Agricultural District boundaries</themekey>
         <themekey>Agriculture and Markets</themekey>
-        <themekey>Agricultural Districts Mapping Program</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -175,7 +176,7 @@
                 <caldate>20160216 (District #2)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20110114 (District #3)</caldate>
+                <caldate>20180228 (District #3)</caldate>
               </sngdate>
             </mdattim>
           </timeinfo>
@@ -260,7 +261,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20160401 through 20180531</procdate>
+        <procdate>20180401 through 20190331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -286,7 +287,7 @@
         <ptvctinf>
           <sdtsterm>
             <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>1026</ptvctcnt>
+            <ptvctcnt>1054</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -326,7 +327,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>agricultural district</enttypl>
+        <enttypl>agJEFF2019</enttypl>
         <enttypd>Agricultural districts are lands that are under the protection of NYS Agricultural
           District Law, administered by the New York State Department of Agriculture and
           Markets.</enttypd>
@@ -417,7 +418,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>6.31</transize>
+              <transize>5.81</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -479,7 +480,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/68/agJEFF2017.kmz</networkr>
+                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/68/agJEFF2019.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -507,7 +508,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007968&amp;bbox=-76.39258073,43.65311122,-75.48194427,44.39694078&amp;width=256&amp;height=209&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007968&amp;bbox=-76.39258073,43.64771608,-75.48194427,44.39709792&amp;width=256&amp;height=210&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -548,7 +549,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180612</metd>
+      <metd>20190408</metd>
       <metc>
         <cntinfo>
           <cntorgp>

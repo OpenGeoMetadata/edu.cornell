@@ -6,8 +6,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20180331</pubdate>
-        <title>Agricultural Districts, Oneida County NY, 2018</title>
+        <pubdate>20190405</pubdate>
+        <title>Agricultural Districts, Oneida County NY, 2019</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -19,7 +19,7 @@
     <descript>
       <abstract>These GIS files represent geographic boundaries for lands that are under the
         protection of NYS Agricultural District Law, administered by the New York State Department
-        of Agriculture and Markets. The boundaries are derived from New York State Agricultural
+        of Agriculture and Markets. The boundaries are derived from New York State Agriculturals
         District, 1:24,000-scale, maps produced at county agencies. The district boundaries
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
@@ -44,12 +44,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20180331</caldate>
+          <caldate>201900405</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -71,7 +71,6 @@
         <themekt>None</themekt>
         <themekey>New York State Agricultural District boundaries</themekey>
         <themekey>Agriculture and Markets</themekey>
-        <themekey>Agricultural Districts Mapping Program</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -175,10 +174,10 @@
                 <caldate>20170922 (district #1)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20110128 (district #2)</caldate>
+                <caldate>20180306 (district #2)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20110713 (district #3)</caldate>
+                <caldate>20190313 (district #3)</caldate>
               </sngdate>
               <sngdate>
                 <caldate>20121218 (district #4)</caldate>
@@ -196,7 +195,7 @@
           </timeinfo>
           <srccurr>8-year certification date</srccurr>
         </srctime>
-        <srccitea>origmaps</srccitea>
+        <srccitea>agONEI</srccitea>
         <srccontr>original district boundaries</srccontr>
       </srcinfo>
       <procstep>
@@ -277,7 +276,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20170401 through 20180531</procdate>
+        <procdate>20180401 through 20190331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -305,7 +304,7 @@
         <ptvctinf>
           <sdtsterm>
             <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>1560</ptvctcnt>
+            <ptvctcnt>1599</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -345,7 +344,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>agricultural district</enttypl>
+        <enttypl>agONEI2019</enttypl>
         <enttypd>Agricultural districts are lands that are under the protection of NYS Agricultural
           District Law, administered by the New York State Department of Agriculture and
           Markets.</enttypd>
@@ -445,7 +444,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>14.07</transize>
+              <transize>12.74</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -507,7 +506,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/75/agONEI2018.kmz</networkr>
+                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/75/agONEI2019.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -577,7 +576,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180612</metd>
+      <metd>20190408</metd>
       <metc>
         <cntinfo>
           <cntorgp>

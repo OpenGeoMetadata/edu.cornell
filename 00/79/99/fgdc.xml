@@ -6,8 +6,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20150331</pubdate>
-        <title>Agricultural Districts, Wyoming County, 2017</title>
+        <pubdate>201900405</pubdate>
+        <title>Agricultural Districts, Wyoming County NY, 2019</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -24,10 +24,12 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps. The data files are in
-        ArcGIS shapefile format.</abstract>
+        those additions. When annual additions are included, an additional field (OEadds303b) is
+        annexed to the attribute table; the dates of the annual additions listed in that field. Tax
+        parcel detail and secondary rights-of-way are not included in this dataset. Rights-of-way
+        for state and federal highways, railroads and utilities are only included when they are
+        delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile
+        format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -42,12 +44,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150331</caldate>
+          <caldate>20190405</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -69,7 +71,6 @@
         <themekt>None</themekt>
         <themekey>New York State Agricultural District boundaries</themekey>
         <themekey>Agriculture and Markets</themekey>
-        <themekey>Agricultural Districts Mapping Program</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -169,13 +170,13 @@
           <timeinfo>
             <mdattim>
               <sngdate>
-                <caldate>20081229 (district #2)</caldate>
+                <caldate>20160407 (district #2)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20100520 (district #3)</caldate>
+                <caldate>20170125 (district #3)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20120125 (district #4)</caldate>
+                <caldate>20181005 (district #4)</caldate>
               </sngdate>
               <sngdate>
                 <caldate>20140924 (district #5)</caldate>
@@ -184,7 +185,7 @@
           </timeinfo>
           <srccurr>8-year certification date</srccurr>
         </srctime>
-        <srccitea>none</srccitea>
+        <srccitea>agWYOM</srccitea>
         <srccontr>original district boundaries</srccontr>
       </srcinfo>
       <procstep>
@@ -263,7 +264,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20160401 through 20180531</procdate>
+        <procdate>20180401 through 20190331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -290,7 +291,7 @@
         <ptvctinf>
           <sdtsterm>
             <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>857</ptvctcnt>
+            <ptvctcnt>861</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -330,7 +331,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>agricultural district</enttypl>
+        <enttypl>agWYOM2019</enttypl>
         <enttypd>Agricultural districts are lands that are under the protection of NYS Agricultural
           District Law, administered by the New York State Department of Agriculture and
           Markets.</enttypd>
@@ -421,7 +422,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>2.90</transize>
+              <transize>2.55</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -483,7 +484,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/99/agWYOM2017.kmz</networkr>
+                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/99/agWYOM2019.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -553,7 +554,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180612</metd>
+      <metd>20190408</metd>
       <metc>
         <cntinfo>
           <cntorgp>
