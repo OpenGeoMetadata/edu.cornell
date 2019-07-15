@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -132,7 +131,7 @@ http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov</cntinst>
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/80/01/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/01/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -182,6 +181,10 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
       <procstep>
         <procdesc>Data clipped to New York state by CUGIR staff.</procdesc>
         <procdate>20170612</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff assigned nodata value 0</procdesc>
+        <procdate>20190523</procdate>
       </procstep>
     </lineage>
   </dataqual>
@@ -257,141 +260,101 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
             <edomvd>Open Water - areas of open water, generally with less than 25 percent or greater cover of water (per pixel).</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>12</edomv>
             <edomvd>Perennial Ice/Snow  - All areas characterized by year-long cover of ice and/or snow.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>21</edomv>
             <edomvd>Low Intensity Residential - Includes areas with a mixture of constructed materials and vegetation.  Constructed materials account for 30-80 percent of the cover. Vegetation may account for 20 to 70 percent of the cover. These areas most commonly include single-family housing units. Population densities will be lower than in high intensity residential areas.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>22</edomv>
             <edomvd>High Intensity Residential - Includes heavily built up urban centers where people reside in high numbers. Examples include apartment   complexes and row houses. Vegetation accounts for less than 20 percent of the cover.  Constructed materials account for 80-100 percent of the cover.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>23</edomv>
             <edomvd>Commercial/Industrial/Transportation - Includes infrastructure (e.g. roads, railroads, etc.) and all highways and all developed areas not classified as High Intensity Residential.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>31</edomv>
             <edomvd>Bare Rock/Sand/Clay - Perennially barren areas of bedrock, desert, pavement, scarps, talus, slides, volcanic material, glacial debris, and other accumulations of earthen material.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>32</edomv>
             <edomvd>Quarries/Strip Mines/Gravel Pits - Areas of extractive mining activities with significant surface expression.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>33</edomv>
             <edomvd>Transitional - Areas of sparse vegetative cover (less than 25 percent that are dynamically changing from one land cover to another, often because of land use activities.  Examples include forest clearcuts, a transition phase between forest and agricultural land, the temporary clearing of vegetation, and changes due to natural causes (e.g. fire, flood, etc.)</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>41</edomv>
             <edomvd>Deciduous Forest - Areas dominated by trees where 75 percent or more of the tree species shed foliage simultaneously in response to seasonal change.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>42</edomv>
             <edomvd>Evergreen Forest -  Areas characterized by trees where 75 percent or more of the tree species maintain their leaves all year.  Canopy is never without green foliage. </edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>43</edomv>
             <edomvd>Mixed Forest -  Areas dominated by trees where neither deciduous nor evergreen species represent more than 75 percent of the cover present.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>51</edomv>
             <edomvd>Shrubland - Areas dominated by shrubs; shrub canopy accounts for 25-100 percent of the cover. Shrub cover is generally greater than 25 percent when tree cover is less than 25 percent. Shrub cover may be less than 25 percent in cases when the cover of other life forms (e.g. herbaceous or tree) is less than 25 percent and shrubs cover exceeds the cover of the other life forms.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>61</edomv>
             <edomvd>Orchards/Vineyards/Other - Orchards, vineyards, and other areas planted or maintained for the production of fruits, nuts, berries, or ornamentals.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>71</edomv>
             <edomvd>Grasslands/Herbaceous - Areas dominated by upland grasses and forbs.  In rare cases, herbaceous cover is less than 25 percent, but exceeds the combined cover of the woody species present. These areas are not subject to intensive management, but they are often utilized for  grazing.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>81</edomv>
             <edomvd>Pasture/Hay - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>82</edomv>
             <edomvd>Row Crops -  Areas used for the production of crops, such as corn, soybeans, vegetables, tobacco, and cotton.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>83</edomv>
             <edomvd>Small Grains -  Areas used for the production of graminoid crops such as wheat, barley, oats, and rice.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>84</edomv>
             <edomvd>Fallow - Areas used for the production of crops that are temporarily barren or with sparse  vegetative cover as a result of being tilled in a management practice that incorporates prescribed alternation between cropping and tillage.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>85</edomv>
             <edomvd>Urban/Recreational Grasses - Vegetation (primarily grasses) planted in developed settings for recreation, erosion control, or aesthetic purposes. Examples include parks, lawns, golf courses, airport grasses, and industrial site grasses.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>91</edomv>
             <edomvd>Woody Wetlands - Areas where forest or shrubland vegetation accounts for 25-100 percent of the cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>92</edomv>
             <edomvd>Emergent Herbaceous Wetlands -  Areas where perennial herbaceous vegetation accounts for 75-100 percent of the cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
@@ -434,13 +397,13 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>28.43</transize>
+              <transize>29.32</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/01/cugir-008001.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/cugir-008001.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -454,7 +417,7 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/01/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -468,7 +431,7 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/01/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -482,7 +445,7 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008001&amp;bbox=-80.32125179,39.91363831,-70.23101321,46.02064069&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008001&amp;bbox=-80.32125179,39.91363831,-70.23101321,46.02064068999999&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -543,7 +506,7 @@ Not all cluster/class confusion can be successfully modeled out. Certain classes
     <techpreq>ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.</techpreq>
   </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

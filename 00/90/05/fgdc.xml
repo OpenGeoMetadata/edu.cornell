@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -108,7 +107,7 @@ http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov</cntinst>
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/05/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/90/05/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -336,13 +335,13 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>15.77</transize>
+              <transize>15.80</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/05/cugir-009005.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/05/cugir-009005.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -356,7 +355,7 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/05/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/05/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -370,7 +369,7 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/05/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/05/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -384,7 +383,7 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009005&amp;bbox=-80.32126365,39.91359711,-70.23095935,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009005&amp;bbox=-80.32126365,39.91359711,-70.23095934999999,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -445,7 +444,7 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
     <techpreq>ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.</techpreq>
   </distinfo>
   <metainfo>
-      <metd>20180425</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

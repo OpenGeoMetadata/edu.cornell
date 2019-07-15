@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -16,7 +15,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This is an index of all the available DEM (digital elevation model) tiles within New York state.  Download links are provided for each tile.  Each DEM raster has a pixel resolution of approximately 10 meters.  Elevation values were derived from USGS contour lines mapped at a scale of 1:24,000.</abstract>
+      <abstract>This is an index of all the available DEM (digital elevation model) tiles within New York state.  Download links are provided for each quad.  Each DEM raster has a pixel resolution of approximately 10 meters.  Elevation values were derived from USGS contour lines mapped at a scale of 1:24,000.</abstract>
       <purpose>DEMs can be used as source data for digital orthophotos and
                 as layers in geographic information systems for earth science
                 analysis. DEMs can also serve as tools for volumetric analysis,
@@ -64,10 +63,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-79.750232</westbc>
-            <eastbc>-71.750494</eastbc>
-            <northbc>44.999963</northbc>
-            <southbc>40.499893</southbc>
+            <westbc>-79.75</westbc>
+            <eastbc>-71.75</eastbc>
+            <northbc>45.0</northbc>
+            <southbc>40.5</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -127,11 +126,6 @@
                     through the internal DEC contact.</cntinst>
       </cntinfo>
     </ptcontac>
-    <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/81/86/preview.png</browsen>
-              <browsed>preview of the dataset</browsed>
-              <browset>PNG</browset>
-            </browse>
     <native>24,000 scale hypsographic contour linework drawn by
             photogrametric, plane table or other methods by USGS, US Army Corp
             of Engineers, Tennessee Valley Authority or others. Linework copied
@@ -474,13 +468,13 @@
             <digtinfo>
               <formname>GeoJSON</formname>
               <formcont>OpenIndexMaps</formcont>
-              <transize>0.05</transize>
+              <transize>0.08</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/86/cugir-008186-index.geojson</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/cugir-008186-index.geojson</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -494,7 +488,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/86/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -508,21 +502,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/86/fgdc.html</networkr>
-                  </networka>
-                </computer>
-              </onlinopt>
-            </digtopt>
-          </digform><digform>
-            <digtinfo>
-              <formname>OGC:WMS</formname>
-              <formcont>WMS, from GeoServer</formcont>
-            </digtinfo>
-            <digtopt>
-              <onlinopt>
-                <computer>
-                  <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008186&amp;bbox=-79.99022414,40.3648909,-71.51050186,45.1349651&amp;width=256&amp;height=144&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -530,7 +510,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20181219</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

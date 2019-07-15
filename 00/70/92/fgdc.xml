@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -74,7 +73,7 @@
       products derived from these files. TIGER, TIGER/Line and Census TIGER are trademarks of the
       Bureau of the Census.</useconst>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/70/92/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/70/92/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -244,7 +243,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/70/92/cugir-007092.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/70/92/cugir-007092.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -258,7 +257,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/70/92/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/70/92/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -272,7 +271,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/70/92/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/70/92/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -314,7 +313,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007092&amp;bbox=-79.99956753,40.35751261,-71.61904747,45.15148239&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007092&amp;bbox=-79.99956753,40.35751261,-71.61904747000001,45.151482390000005&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -322,7 +321,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

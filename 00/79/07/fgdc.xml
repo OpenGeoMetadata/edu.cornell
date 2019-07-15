@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -147,7 +146,7 @@ users are responsible for obtaining the latest version of the data.
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/79/07/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/79/07/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -1185,13 +1184,13 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>54.87</transize>
+              <transize>54.86</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/07/cugir-007907.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/07/cugir-007907.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1205,7 +1204,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/07/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/07/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1219,7 +1218,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/07/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/07/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1261,7 +1260,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007907&amp;bbox=-76.47676878,43.64600667,-75.41610522,44.42543633&amp;width=256&amp;height=188&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007907&amp;bbox=-76.47676878,43.646006670000006,-75.41610521999999,44.42543633&amp;width=256&amp;height=188&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1353,7 +1352,7 @@ delimited, ASCII file format.
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

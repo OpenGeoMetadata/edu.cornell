@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -263,13 +262,13 @@
             <digtinfo>
               <formname>GeoJSON</formname>
               <formcont>OpenIndexMaps</formcont>
-              <transize>0.17</transize>
+              <transize>0.19</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/03/cugir-009003-index.geojson</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/03/cugir-009003-index.geojson</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -283,7 +282,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/03/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/03/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -297,21 +296,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/03/fgdc.html</networkr>
-                  </networka>
-                </computer>
-              </onlinopt>
-            </digtopt>
-          </digform><digform>
-            <digtinfo>
-              <formname>OGC:WMS</formname>
-              <formcont>WMS, from GeoServer</formcont>
-            </digtinfo>
-            <digtopt>
-              <onlinopt>
-                <computer>
-                  <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009003&amp;bbox=-81.02304039,39.94990155,-71.59029861,45.14699145&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/03/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -319,7 +304,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20181221</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

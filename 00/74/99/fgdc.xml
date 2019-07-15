@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -93,7 +92,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/74/99/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/74/99/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -209,56 +208,8 @@
         <enttypds>Tompkins County ITS GIS Division, 1998</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>AccountNum</attrlabl>
-        <attrdef>Real Property Services (RPS) Database account number, which is used to uniquely identify railroad, state-owned, and utility properties. The original values were extracted directly from the RPS database. This field is updated automatically when the region layers are created using the PARCREGS.aml Macro.</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1998</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>AREA</attrlabl>
         <attrdef>Polygon Area (Internal Software Attribute, in Map Units)</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>CalcAcres</attrlabl>
-        <attrdef>Calculated Acreage (AREA / 43560)</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1998</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Inset</attrlabl>
-        <attrdef>Inset Location for paper map. Main map area will always be 0, with insets numbered 1 and above. For maps without an inset, the inset number will be 0. This field will be used to generate an inset region, if it deemed as necessary.</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1999</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>LatDD</attrlabl>
-        <attrdef>Lattitude (Y-coordinate), in decimal degrees, of the main parcel centroid (ie, the polygon centroid coded with PRCLTEXT equal to MP or SP).</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>LongDD</attrlabl>
-        <attrdef>Longitude (X-coordinate), in decimal degrees, of the main parcel centroid (ie, the polygon centroid coded with PRCLTEXT equal to MP or SP).</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
-        <attrdomv>
-          <udom>Unspecified</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>ParcelKey</attrlabl>
-        <attrdef>Real Property Services (RPS) Database parcel key (Swis-Section-Block-Lot or SSBL). This field is updated yearly based on the GIS extract of the final-roll RPS database. This field can be used to relate to the RPS database.</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
         <attrdomv>
           <udom>Unspecified</udom>
@@ -273,9 +224,49 @@
         </attrdomv>
       </attr>
       <attr>
+        <attrlabl>ParcelKey</attrlabl>
+        <attrdef>Real Property Services (RPS) Database parcel key (Swis-Section-Block-Lot or SSBL). This field is updated yearly based on the GIS extract of the final-roll RPS database. This field can be used to relate to the RPS database.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrdomv>
+          <udom>Unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
         <attrlabl>PrintKey</attrlabl>
         <attrdef>Real Property Services database print key (Section-Block-Lot or S-B-L).</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrdomv>
+          <udom>Unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AccountNum</attrlabl>
+        <attrdef>Real Property Services (RPS) Database account number, which is used to uniquely identify railroad, state-owned, and utility properties. The original values were extracted directly from the RPS database. This field is updated automatically when the region layers are created using the PARCREGS.aml Macro.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1998</attrdefs>
+        <attrdomv>
+          <udom>Unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Swis</attrlabl>
+        <attrdef>State SWIS code for the municipality in which the parcel is located (not necessarily the same as the SWIS code in which the polygon is located - see POLYSWIS field).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SwisPrintK</attrlabl>
+        <attrdef>Concatenation of SWIS code, "-", and the PRINTKEY field, for those polygons without an account number (ie, a blank ACCOUNTNUM), or a concatenation of SWIS code, "-", and the ACCOUNTNUM field, for those polygons with an account number. This field is easily reproducible within the Real Property Services database extract, and is used as the primary relate (key) field to the RPS extract from the parcel data sets. This field is used to create the Print Key region in this data set.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrdomv>
+          <udom>Unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CalcAcres</attrlabl>
+        <attrdef>Calculated Acreage (AREA / 43560)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1998</attrdefs>
         <attrdomv>
           <udom>Unspecified</udom>
         </attrdomv>
@@ -289,21 +280,25 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Swis</attrlabl>
-        <attrdef>State SWIS code for the municipality in which the parcel is located (not necessarily the same as the SWIS code in which the polygon is located - see POLYSWIS field).</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrlabl>LongDD</attrlabl>
+        <attrdef>Longitude (X-coordinate), in decimal degrees, of the main parcel centroid (ie, the polygon centroid coded with PRCLTEXT equal to MP or SP).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
         <attrdomv>
-          <edom>
-            <edomv>502000</edomv>
-            <edomvd>Town of Caroline</edomvd>
-            <edomvds>New York State Office of Real Property Services</edomvds>
-          </edom>
+          <udom>Unspecified</udom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SwisPrintK</attrlabl>
-        <attrdef>Concatenation of SWIS code, "-", and the PRINTKEY field, for those polygons without an account number (ie, a blank ACCOUNTNUM), or a concatenation of SWIS code, "-", and the ACCOUNTNUM field, for those polygons with an account number. This field is easily reproducible within the Real Property Services database extract, and is used as the primary relate (key) field to the RPS extract from the parcel data sets. This field is used to create the Print Key region in this data set.</attrdef>
-        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrlabl>LatDD</attrlabl>
+        <attrdef>Lattitude (Y-coordinate), in decimal degrees, of the main parcel centroid (ie, the polygon centroid coded with PRCLTEXT equal to MP or SP).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <udom>Unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Inset</attrlabl>
+        <attrdef>Inset Location for paper map. Main map area will always be 0, with insets numbered 1 and above. For maps without an inset, the inset number will be 0. This field will be used to generate an inset region, if it deemed as necessary.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1999</attrdefs>
         <attrdomv>
           <udom>Unspecified</udom>
         </attrdomv>
@@ -343,13 +338,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>5.37</transize>
+              <transize>5.38</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/99/cugir-007499.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/99/cugir-007499.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -363,7 +358,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/99/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/99/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -377,7 +372,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/99/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/99/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -419,7 +414,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007499&amp;bbox=-76.70997692,42.25177704,-76.22358108,42.63828696&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007499&amp;bbox=-76.70997692,42.25177704,-76.22358108,42.638286959999995&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -464,7 +459,7 @@
     </availabl>
   </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

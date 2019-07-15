@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -89,7 +88,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/11/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/90/11/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -186,16 +185,12 @@
             <edomvd>NoData: Background Value</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>1</edomv>
             <edomvd>Water: All areas of open water. This includes ponds, rivers, lakes and boats not
               attached to docks. MMU = 25 square meters.</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>2</edomv>
             <edomvd>Wetlands: Low vegetation areas located along marine or estuarine regions that
@@ -204,8 +199,6 @@
               meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>3</edomv>
             <edomvd>Tree Canopy: Deciduous and evergreen woody vegetation of either natural
@@ -214,8 +207,6 @@
               MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>4</edomv>
             <edomvd>Shrub Scrub: Heterogeneous area of both/either deciduous and/or evergreen woody
@@ -227,8 +218,6 @@
               vegetation. MMU = 225 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>5</edomv>
             <edomvd>Low Vegetation: Plant material less than approximately 2 meters in height.
@@ -236,8 +225,6 @@
               natural ground cover. MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>6</edomv>
             <edomvd>Barren: Areas void of vegetation consisting of natural earthen material
@@ -245,8 +232,6 @@
               ground in construction sites. MMU = 25 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>7</edomv>
             <edomvd>Structures: Human-constructed objects made of impervious materials that are
@@ -254,8 +239,6 @@
               are examples of structures. MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>8</edomv>
             <edomvd>Impervious Surfaces: Human-constructed surfaces through which water cannot
@@ -263,16 +246,12 @@
               meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>9</edomv>
             <edomvd>Impervious Roads: Impervious surfaces that are used and maintained for
               transportation. MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>10</edomv>
             <edomvd>Tree Canopy over Structures: Forest or Tree Cover that overlaps with impervious
@@ -280,8 +259,6 @@
               MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>11</edomv>
             <edomvd>Tree Canopy over Impervious Surfaces: Forest or Tree Cover that overlaps with
@@ -289,8 +266,6 @@
               visible to plain sight. MMU = 9 square meters</edomvd>
             <edomvds>Chesapeake Conservancy</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>12</edomv>
             <edomvd>Tree Canopy over Roads: Forest or Tree Cover that overlaps with impervious
@@ -354,13 +329,13 @@
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>96.91</transize>
+              <transize>97.37</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/11/cugir-009011.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/11/cugir-009011.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -374,7 +349,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/11/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/11/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -388,7 +363,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/11/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/11/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -410,7 +385,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20181212</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

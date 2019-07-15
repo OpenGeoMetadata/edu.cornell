@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -106,7 +105,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/73/30/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/30/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -230,26 +229,11 @@
         <enttypds>U.S. Geological Survey, Minerals Information Team</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>Shape</attrlabl>
-        <attrdef>The representation of the entity in the data.</attrdef>
-        <attrdefs>U.S. Geological Survey</attrdefs>
-        <attrdomv>
-          <edom>
-            <edomv>Point</edomv>
-            <edomvd>0-dimensional element.</edomvd>
-            <edomvds>ESRI GIS software</edomvds>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>Area</attrlabl>
         <attrdef>The size of the shape in coverage units.</attrdef>
         <attrdefs>U.S. Geological Survey</attrdefs>
         <attrdomv>
-          <rdom>
-            <rdommin>0.000</rdommin>
-            <rdommax>0.000</rdommax>
-          </rdom>
+          <udom>real number</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -257,10 +241,7 @@
         <attrdef>The perimeter of the shape in coverage units.</attrdef>
         <attrdefs>U.S. Geological Survey</attrdefs>
         <attrdomv>
-          <rdom>
-            <rdommin>0.000</rdommin>
-            <rdommax>0.000</rdommax>
-          </rdom>
+          <udom>real number</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -357,15 +338,11 @@
             <edomvd>The facility is a mine.</edomvd>
             <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>P</edomv>
             <edomvd>The facility is a plant.</edomvd>
             <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>M/P</edomv>
             <edomvd>The facility is both a mine and a plant.</edomvd>
@@ -414,7 +391,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/30/cugir-007330.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/30/cugir-007330.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -428,7 +405,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/30/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/30/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -442,7 +419,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/30/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/30/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -484,7 +461,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007330&amp;bbox=-78.14303213,42.29890893,-76.25965487,42.84180807&amp;width=256&amp;height=73&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007330&amp;bbox=-78.14303213000001,42.298908929999996,-76.25965486999999,42.84180807&amp;width=256&amp;height=73&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -492,7 +469,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

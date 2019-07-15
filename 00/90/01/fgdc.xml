@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -16,9 +15,9 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This shapefile is an index of county-based mosaics of USGS topographic maps.  Map images were derived from scans of USGS
-        7.5 minute quadrangle maps (Digital Raster Graphics) circa 2000. The images form a
-        set of seamless tiles, 5,000 m on a side, from which the map collar
+      <abstract>This is an index of county-based mosaics of USGS topographic maps.
+        Map images were derived from scans of USGS 7.5 minute quadrangle maps
+        (Digital Raster Graphics) circa 2000, from which the map collar
         information was removed. Images are GeoTIFF files in NAD83, UTM zone 18.</abstract>
       <purpose>A DRG is useful as a source or background layer in a GIS, as a
         means to perform quality assurance on other digital products, and as a
@@ -39,12 +38,7 @@
         for a particular image because the map collar information is not
         present. Users need to be aware of the need to use care in determining
         elevation units from these images. 3. For more background on Digital
-        Raster Graphics, refer to the USGS. To identify codes used in the data
-        go to
-        &lt;http://cugir.mannlib.cornell.edu/metadata/NY.DRG.Index.html&gt;,
-        the Index of New York State Digital Raster Graph (DRG) Quad Names
-        established by the USGS and NY Department of Transportation
-      (DOT).</supplinf>
+        Raster Graphics, refer to the USGS.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -111,11 +105,6 @@
         <cntemail>kfbarnes@gw.dec.state.ny.us</cntemail>
       </cntinfo>
     </ptcontac>
-    <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/01/preview.png</browsen>
-              <browsed>preview of the dataset</browsed>
-              <browset>PNG</browset>
-            </browse>
   </idinfo>
   <dataqual>
     <logic>Not Applicable</logic>
@@ -216,17 +205,23 @@
           populate the image catalog.</procdesc>
         <procdate>19991231</procdate>
       </procstep>
+      <procstep>
+        <procdesc>
+          CUGIR staff merged the 5000m tiles statewide, then clipped by each county bounding box.
+        </procdesc>
+        <procdate>2012</procdate>
+      </procstep>
     </lineage>
   </dataqual>
   <spdoinfo>
-        <direct>Vector</direct>
-        <ptvctinf>
-          <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>62</ptvctcnt>
-          </sdtsterm>
-        </ptvctinf>
-      </spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>62</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
   <spref>
     <horizsys>
       <planar>
@@ -290,16 +285,15 @@
         <stdorder>
         <digform>
             <digtinfo>
-              <formname>Shapefile</formname>
-              <formcont>zipped shapefile</formcont>
-              <filedec>zip</filedec>
-              <transize>0.20</transize>
+              <formname>GeoJSON</formname>
+              <formcont>OpenIndexMaps</formcont>
+              <transize>0.18</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/01/cugir-009001.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/01/cugir-009001-index.geojson</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -313,7 +307,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/01/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/01/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -327,49 +321,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/01/fgdc.html</networkr>
-                  </networka>
-                </computer>
-              </onlinopt>
-            </digtopt>
-          </digform><digform>
-                <digtinfo>
-                  <formname>KML</formname>
-                  <formcont>generated KML, via WFS</formcont>
-                </digtinfo>
-                <digtopt>
-                  <onlinopt>
-                    <computer>
-                      <networka>
-                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir009001&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
-                      </networka>
-                    </computer>
-                  </onlinopt>
-                </digtopt>
-              </digform><digform>
-            <digtinfo>
-              <formname>GeoJSON</formname>
-              <formcont>generated GeoJSON, via WFS</formcont>
-            </digtinfo>
-            <digtopt>
-              <onlinopt>
-                <computer>
-                  <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir009001&amp;outputFormat=application%2Fjson</networkr>
-                  </networka>
-                </computer>
-              </onlinopt>
-            </digtopt>
-          </digform><digform>
-            <digtinfo>
-              <formname>OGC:WMS</formname>
-              <formcont>WMS, from GeoServer</formcont>
-            </digtinfo>
-            <digtopt>
-              <onlinopt>
-                <computer>
-                  <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009001&amp;bbox=-79.99933014,40.36051059,-71.61903586,45.15144241&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/01/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -377,7 +329,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20180220</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

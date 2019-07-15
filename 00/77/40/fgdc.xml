@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -16,9 +15,25 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>The Adirondack State Forest Acquisition Map contains the old growth timber areas of the Adirondack Park, New York State.</abstract>
-      <purpose>The data was created for the Adirondack Park Agency (APA) as an historical reference. This resource may be used to determine approximate areas of old timber growth in the Adirondack Park.</purpose>
-      <supplinf>The original data was collected by B. McMartin, who compiled a map of lands acquired by the State in the Adirondack Park. This information was based upon various sources, including a 1920 series of publications by the NYSDEC. Field checking by McMartin and others was also performed. The original map was a 1:250,000+ scale Great Lot map, color coded with five category types. Using a light table, this information was later transferred to a 1:250,000 scale NYSDOT base map. The areas were color-coded using four categories outlined on the McMartin map. Digital data was developed by for the area defined by the Oswegatchie/Black River watershed in by State University of New York (SUNY) Plattsburgh under contract to the APA. Although the OB digital data created by SUNY was not incorporated into this coverage, the same attribute scheme was used. Please refer to McMartin, B. 1994. The great forest of the Adirondacks, North Country Books, Utica, NY (ISBN: 0925168297) and New York State Department of Environmental Conservation 1920, State of New York list of lands in the forest preserve. Appendix to 1919 annual report. J.B. Lyon Co., Albany, New York.</supplinf>
+      <abstract>The Adirondack State Forest Acquisition Map contains the old growth timber areas of
+        the Adirondack Park, New York State.</abstract>
+      <purpose>The data was created for the Adirondack Park Agency (APA) as an historical reference.
+        This resource may be used to determine approximate areas of old timber growth in the
+        Adirondack Park.</purpose>
+      <supplinf>The original data was collected by B. McMartin, who compiled a map of lands acquired
+        by the State in the Adirondack Park. This information was based upon various sources,
+        including a 1920 series of publications by the NYSDEC. Field checking by McMartin and others
+        was also performed. The original map was a 1:250,000+ scale Great Lot map, color coded with
+        five category types. Using a light table, this information was later transferred to a
+        1:250,000 scale NYSDOT base map. The areas were color-coded using four categories outlined
+        on the McMartin map. Digital data was developed by for the area defined by the
+        Oswegatchie/Black River watershed in by State University of New York (SUNY) Plattsburgh
+        under contract to the APA. Although the OB digital data created by SUNY was not incorporated
+        into this coverage, the same attribute scheme was used. Please refer to McMartin, B. 1994.
+        The great forest of the Adirondacks, North Country Books, Utica, NY (ISBN: 0925168297) and
+        New York State Department of Environmental Conservation 1920, State of New York list of
+        lands in the forest preserve. Appendix to 1919 annual report. J.B. Lyon Co., Albany, New
+        York.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -47,7 +62,8 @@
       </theme>
       <theme>
         <themekt>LCSH</themekt>
-        <themekey>Forests and forestry--New York (State)--Adirondack Mountains Region--History.</themekey>
+        <themekey>Forests and forestry--New York (State)--Adirondack Mountains
+          Region--History.</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -65,14 +81,13 @@
       </place>
     </keywords>
     <accconst>None</accconst>
-    <useconst>Data is to be used at the scale intended. Please acknowledge the Adirondack Park Agency as the source of the data.</useconst>
+    <useconst>Data is to be used at the scale intended. Please acknowledge the Adirondack Park
+      Agency as the source of the data.</useconst>
     <ptcontac>
       <cntinfo>
-        <cntperp>
-          <cntper>John W. Barge</cntper>
-        </cntperp>
         <cntorgp>
           <cntorg>Adirondack Park Agency</cntorg>
+          <cntper>John W. Barge</cntper>
         </cntorgp>
         <cntaddr>
           <addrtype>Mailing Address</addrtype>
@@ -86,7 +101,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/77/40/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/77/40/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -97,18 +112,56 @@
       <attraccr/>
     </attracc>
     <logic>Topologically Clean</logic>
-    <complete>Topological and attribute accuracy were verified by visually comparing the data in checkplots to the original base map.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Quantitative</horizpar>
-      </horizpa>
-      <horizpa>
-        <qhorizpa>
-          <horizpav/>
-          <horizpae>Process Steps: Process Description: The NYSDOT source map has UTM crosshairs printed at 15-minute intervals. These markings were used to create a list of registration tic marks. The tics represented the corners of 15-minute quadrangle map sections. A total of seventy tic marks were included in the file. This file was used to register the hardcopy map.The arcs were digitized in Arc/Info into one coverage. The boundary of the Adirondack Park was copied into the coverage and arcs were digitized up to this boundary. Digitizing was performed on a Calcomp 9500 digitizing tablet. The map was digitized into one coverage during several sessions, registering the northern and southern portions of the map sheet. The RMS error for the sessions ranged from 0.002 to 0.004. The higher registration error for several map sections was due to a seam in the base map that runs east/west across the approximate middle of the Park. Duplicate lines, intersections and dangling nodes were edited to rectify topology errors. The composite coverage was then built with the POLY option. Label points were created with a new attribute field, "Code". Valid codes for this field included "B", "R", "Y", "X", and "C". An additional code, "U", was added to note polygons which had no color code on the original map. These areas were clearly old growth timber parcels, but had not been hand-colored. These were generally areas that were not internal polygons, i.e., they were located on the edge of other coded, old growth areas. An additional attribute field, "Description", was added containing the verbal description of the areas. A look-up table called legend.lut was created to cross-reference to the coverage. These values for the "Description" field were derived from the SUNY Plattsburg checkplot of the Oswagatchie/Black River Basin area. The list below indicates the description associated with each code. CODE DESCRIPTION X Virgin stands; never harvested. B Parcels acquired in 1871 and 1877 tax sales, or owned by the State prior to 1871. R Parcels acquired in 1881 and 1885 tax sales. Y Parcels acquired in 1891 or later via tax sale or purchase. C Uncoded on the original map. U Internal polygons not coded on the original map. The final data set was converted into an Arc/Info interchange filed named timber.e00 for easy data transfer. Quality Assurance/Quality Control was determined by a series of tests. Early checkplots of area boundaries were produced on velum and overlayed on the source map to check for omission errors. The final coverage was visually inspected interactively through comparison to the source material (the hardcopy map). The data set was thematically mapped by codes and printed at the same scale as the source material. The printed check plot was positioned next to the source material for cross-examination. The operator checked for consistency between the source material and the final coverage in terms of coding and position of graphic objects and attributes (fields and content). Objects with extreme area size (small or large) were identified in ArcView by sorting the attribute table by area. Small slivers and unusually large polygons were examined and rectified as needed. The accuracy of the type of attribute fields was verified by examining the Arc/Info Items listing for the coverage. Creating a summary table in ArcView confirmed valid attribute values. Inconsistencies (e.g., missing values) were identified and rectified. The coordinate system of the final data set was verified by examining the coverage description in Arc/Info, as well as overlaying the data over a coverage known to be in the desired projection. Consistency between the known coverage and the final old growth timber data layer was evaluated. Process Date: Process Contact: Contact Information: Contact Information Primary: Contact Organization: Contact Address: Address Type: Address Address City State or Province: New York Postal Code: County: USA Contact_Voice_Telephone</horizpae>
-        </qhorizpa>
-      </horizpa>
-    </posacc>
+    <complete>Topological and attribute accuracy were verified by visually comparing the data in
+      checkplots to the original base map.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The NYSDOT source map has UTM crosshairs printed at 15-minute intervals. These
+          markings were used to create a list of registration tic marks. The tics represented the
+          corners of 15-minute quadrangle map sections. A total of seventy tic marks were included
+          in the file. This file was used to register the hardcopy map.The arcs were digitized in
+          Arc/Info into one coverage. The boundary of the Adirondack Park was copied into the
+          coverage and arcs were digitized up to this boundary. Digitizing was performed on a
+          Calcomp 9500 digitizing tablet. The map was digitized into one coverage during several
+          sessions, registering the northern and southern portions of the map sheet. The RMS error
+          for the sessions ranged from 0.002 to 0.004. The higher registration error for several map
+          sections was due to a seam in the base map that runs east/west across the approximate
+          middle of the Park. Duplicate lines, intersections and dangling nodes were edited to
+          rectify topology errors. The composite coverage was then built with the POLY option. Label
+          points were created with a new attribute field, "Code". Valid codes for this field
+          included "B", "R", "Y", "X", and "C". An additional code, "U", was added to note polygons
+          which had no color code on the original map. These areas were clearly old growth timber
+          parcels, but had not been hand-colored. These were generally areas that were not internal
+          polygons, i.e., they were located on the edge of other coded, old growth areas. An
+          additional attribute field, "Description", was added containing the verbal description of
+          the areas. A look-up table called legend.lut was created to cross-reference to the
+          coverage. These values for the "Description" field were derived from the SUNY Plattsburg
+          checkplot of the Oswagatchie/Black River Basin area. The list below indicates the
+          description associated with each code. CODE DESCRIPTION X Virgin stands; never harvested.
+          B Parcels acquired in 1871 and 1877 tax sales, or owned by the State prior to 1871. R
+          Parcels acquired in 1881 and 1885 tax sales. Y Parcels acquired in 1891 or later via tax
+          sale or purchase. C Uncoded on the original map. U Internal polygons not coded on the
+          original map. The final data set was converted into an Arc/Info interchange filed named
+          timber.e00 for easy data transfer. Quality Assurance/Quality Control was determined by a
+          series of tests. Early checkplots of area boundaries were produced on velum and overlayed
+          on the source map to check for omission errors. The final coverage was visually inspected
+          interactively through comparison to the source material (the hardcopy map). The data set
+          was thematically mapped by codes and printed at the same scale as the source material. The
+          printed check plot was positioned next to the source material for cross-examination. The
+          operator checked for consistency between the source material and the final coverage in
+          terms of coding and position of graphic objects and attributes (fields and content).
+          Objects with extreme area size (small or large) were identified in ArcView by sorting the
+          attribute table by area. Small slivers and unusually large polygons were examined and
+          rectified as needed. The accuracy of the type of attribute fields was verified by
+          examining the Arc/Info Items listing for the coverage. Creating a summary table in ArcView
+          confirmed valid attribute values. Inconsistencies (e.g., missing values) were identified
+          and rectified. The coordinate system of the final data set was verified by examining the
+          coverage description in Arc/Info, as well as overlaying the data over a coverage known to
+          be in the desired projection. Consistency between the known coverage and the final old
+          growth timber data layer was evaluated.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
   </dataqual>
   <spdoinfo>
         <direct>Vector</direct>
@@ -152,14 +205,6 @@
       </geodetic>
     </horizsys>
   </spref>
-  <eainfo>
-    <detailed>
-      <attr/>
-    </detailed>
-    <overview>
-      <eaover>Attribute Name Description Attribute Type Input Width Output Width Decimal Places Area Area of the polygon Floating Point 13 13 6 Perimeter Perimeter of the polygon Floating Point 13 13 6 Timber# Internal ID number of the polygon Binary 11 11 0 Timber-id User ID number of the polygon Binary 11 11 0 Code State Forest Acquisition classification code Character 1 1 0</eaover>
-    </overview>
-  </eainfo>
   <distinfo>
         <distrib>
           <cntinfo>
@@ -193,13 +238,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.09</transize>
+              <transize>0.14</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/77/40/cugir-007740.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/cugir-007740.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -213,7 +258,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/77/40/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -227,7 +272,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/77/40/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -277,7 +322,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

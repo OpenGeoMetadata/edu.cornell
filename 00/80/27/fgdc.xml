@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -110,7 +109,7 @@ http://cgis.towson.edu/
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/80/27/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/27/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -820,13 +819,13 @@ Data Dictionary: USDA - NATIONAL AGRICULTURE STATISTICS SERVICE'S 1:100,000-SCAL
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>31.02</transize>
+              <transize>31.01</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/27/cugir-008027.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/27/cugir-008027.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -840,7 +839,7 @@ Data Dictionary: USDA - NATIONAL AGRICULTURE STATISTICS SERVICE'S 1:100,000-SCAL
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/27/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/27/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -854,7 +853,7 @@ Data Dictionary: USDA - NATIONAL AGRICULTURE STATISTICS SERVICE'S 1:100,000-SCAL
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/27/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/27/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -868,7 +867,7 @@ Data Dictionary: USDA - NATIONAL AGRICULTURE STATISTICS SERVICE'S 1:100,000-SCAL
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008027&amp;bbox=-80.24707998,40.26639423,-71.39972002,45.16153677&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008027&amp;bbox=-80.24707998000001,40.266394229999996,-71.39972001999999,45.161536770000005&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -941,7 +940,7 @@ Distribution issues can also be directed to the NASS Customer Service Hotline at
     </availabl>
   </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

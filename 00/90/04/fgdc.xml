@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -27,14 +26,14 @@ The USGS acknowledges the support of USGS and contractor NLCD 2011 Land Cover Ma
       </citeinfo>
     </citation>
     <descript>
-      <abstract>The National Land Cover Database products are created through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium.  The MRLC Consortium is a partnership of Federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture - Forest Service (USDA-FS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (USFWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS).  The success of NLCD over nearly two decades is credited to the continuing collaborative spirit of the agencies that make up the MRLC.  NLCD 2011 is the most up-to-date iteration of the National Land Cover Database, the definitive Landsat-based, 30-meter resolution land cover database for the Nation.  The data in NLCD 2011 are completely integrated with NLCD 2001 (2011 Edition, amended 2014) and NLCD 2006 (2011 Edition, amended 2014).  
-For NLCD 2011, there are 5 primary data products:  
+      <abstract>The National Land Cover Database products are created through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium.  The MRLC Consortium is a partnership of Federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture - Forest Service (USDA-FS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (USFWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS).  The success of NLCD over nearly two decades is credited to the continuing collaborative spirit of the agencies that make up the MRLC.  NLCD 2011 is the most up-to-date iteration of the National Land Cover Database, the definitive Landsat-based, 30-meter resolution land cover database for the Nation.  The data in NLCD 2011 are completely integrated with NLCD 2001 (2011 Edition, amended 2014) and NLCD 2006 (2011 Edition, amended 2014).
+For NLCD 2011, there are 5 primary data products:
 1) NLCD 2011 Land Cover
 2) NLCD 2006/2011 Land Cover Change Pixels labeled with the 2011 land cover class
 3) NLCD 2011 Percent Developed Imperviousness
 4) NLCD 2006/2011 Percent Developed Imperviousness Change Pixels
-5) NLCD 2011 Tree Canopy Cover provided by an MRLC partner - the USDA Forest Service Remote Sensing Applications Center.  
-In addition, ancillary metadata includes the NLCD 2011 Path/Row Index shapefile showing the footprint of Landsat scenes and change analysis pairs used to derive 2006/2011 spectral change.  All Landsat scene acquisition dates are included in the shapefile's attribute table.  As part of the NLCD 2011 project, NLCD 2001 and 2006 land cover and impervious data products were revised and reissued (2011 Edition, amended 2014) to provide full compatibility with the new NLCD 2011 products. The 2014 amended version corrects for the over-elimination of small areas of the four developed classes.  
+5) NLCD 2011 Tree Canopy Cover provided by an MRLC partner - the USDA Forest Service Remote Sensing Applications Center.
+In addition, ancillary metadata includes the NLCD 2011 Path/Row Index shapefile showing the footprint of Landsat scenes and change analysis pairs used to derive 2006/2011 spectral change.  All Landsat scene acquisition dates are included in the shapefile's attribute table.  As part of the NLCD 2011 project, NLCD 2001 and 2006 land cover and impervious data products were revised and reissued (2011 Edition, amended 2014) to provide full compatibility with the new NLCD 2011 products. The 2014 amended version corrects for the over-elimination of small areas of the four developed classes.
 NLCD Tree Canopy Cover was created using MRLC mapping zones from NLCD 2001 (see Tree Canopy Cover metadata for additional detail).  All other NLCD 2011 products were created on a path/row basis and mosaicked to create a seamless national product.  Questions about the NLCD 2011 land cover product can be directed to the NLCD 2011 land cover mapping team at the USGS/EROS, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov.</abstract>
       <purpose>The goal of this project is to provide the Nation with complete, current, and consistent public domain information on its land use and land cover.</purpose>
     </descript>
@@ -105,7 +104,7 @@ http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov</cntinst>
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/04/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/90/04/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -137,24 +136,24 @@ http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov</cntinst>
     </posacc>
     <lineage>
       <procstep>
-        <procdesc>Landsat image selection and preprocessing: 
-For NLCD 2011 change analysis, two 2-date pairs of Landsat scenes were selected for each path/row to represent ground conditions in circa 2006 and 2011.  One additional circa 2011 scene was selected to enhance modeling results for land cover labeling. In selecting the 5 scenes, the temporal range of the imagery was restricted to reduce the impact of seasonal and phenological variation.  A pre-processing step was performed to convert the digital number to top of atmosphere reflectance using procedures similar to those established for the NLCD 2001 mapping effort (Homer et al., 2004).  Reflectance derivatives, including a tasseled-cap transformation and a 3-ratio index, were generated for each scene to use in the modeling process as independent variables.  Where present, clouds and cloud shadows were digitized and masked.  
-NLCD 2011 Percent Developed Imperviousness and Percent Developed Imperviousness Change Analysis: 
-Because the four NLCD developed classes are derived from a percent imperviousness mapping product, an overview of steps required to update the NLCD 2001 imperviousness to reflect urban growth captured in 2006 era Landsat imagery is provided here (Xian et al., 2010).  These same procedures were employed to produce NLCD 2011 Percent Developed Imperviousness and 2006-2011 Percent Developed Imperviousness Change.  
-First, 2009 nighttime lights imagery from the NOAA Defense Meteorological Satellite Program (DMSP) was imposed on the NLCD 2006 impervious surface product to exclude low density imperviousness outside urban and suburban centers so that only imperviousness in urban core areas would be used in the training dataset. Two training datasets, one having a relatively larger urban extent and one having a smaller extent, were produced through imposing two different thresholds on city light imagery.  
-Second, each of the two training datasets combined with 2006 Landsat imagery was separately applied using a regression tree (RT) algorithm to build up RT models. Two sets of RT models were then used to estimate percent imperviousness and to produce two 2006 synthetic impervious surfaces. Similarly, the same two training datasets were used with 2011 Landsat imagery to create two sets of RT models that produce two 2011 synthetic impervious surfaces.  
-Third, the 2006 and 2011 synthetic impervious surface pairs were compared using both 2006 impervious surface products to retain 2006 impervious surface area (ISA) in the unchanged areas. The 2009 DMSP nighttime lights imagery was then employed to ensure that non-imperviousness areas were not included and that new impervious surfaces emerged in the city light extent. After this step, two 2011 intermediate impervious surfaces were produced. Finally, the two intermediate products and 2006 imperviousness were compared to remove false estimates in non-urban areas and generate a 2011 impervious surface estimate.  Imperviousness threshold values used to derive the NLCD developed classes are: (Class 21) developed open space (imperviousness &lt; 20%), (Class 22) low-intensity developed (imperviousness from 20 - 49%), (Class 23) medium intensity developed (imperviousness from 50 -79%), and (Class 24) high-intensity developed (imperviousness &gt; 79%).  
-To improve NLCD imperviousness the 2011 project included a process to reduce omission and commission error in NLCD 2001, 2006, and 2011 products.  This activity was completed for urban areas in most of the eastern ½ of the conterminous United States.  High resolution (one-meter ground sample distance) National Aerial Imagery Program (NAIP - http//fsa.usda.gov/FSA/) imagery was used to verify imperviousness.  Using hand-edits, imperviousness was removed from areas incorrectly identified as developed and added to areas where developed land cover was missed.  A modeling process was implemented to add missed imperviousness changes to the correct era and to fill areas where developed was removed with an appropriate non-developed land cover class.  These improvements were incorporated with the derived developed classes in all areas of imperviousness and land cover versions released with NLCD 2011 editions.  Revised products, NLCD 2001 and NLCD 2006 Impervious (2011 Editions) and NLCD 2001-2006 Impervious Change Pixels (2011 Edition) are included as part of the NLCD 2011 product release.  
-Land Cover Change Analysis: 
-For the NLCD 2011 Land Cover Update, a variation of the Multi-Index Integrated Change Analysis (MIICA) used in NLCD 2006 spectral change analysis was refined to capture land cover disturbance and potential land cover change patterns for updating the National Land Cover Database 2011 (Jin et al. 2013). Four indices were integrated into one model to more accurately detect true spectral changes between two time periods.  Within the model, normalized burn ratio (NBR), change vector (CV, Xian et al., 2009), relative change vector (RCV), and normalized difference vegetation index (NDVI) are calculated separately for the early date (circa 2006) and late date (circa 2011) scenes.  The four pairs of indices for the two dates are differenced and then evaluated in a final model conditional statement that categorizes each pixel as either biomass increase, biomass decrease, or no change.  For NLCD 2011, two image pairs of circa 2006 and circa 2011, ideally one leaf-on pair and one leaf-off pair are used interactively in each path/row.  The integrated change result is clumped and sieved to produce a refined change/no-change mask used to identify potential change pixels that are then labeled with the NLCD 2011 class.  
-NLCD 2011 Land Cover Classification: 
-Land cover mapping protocols used during NLCD 2011 processing are similar to those used to label the NLCD 2001 product (Homer et al., 2004), but applied on a path/row basis instead of multiple path/row MRLC zones (Xian et al., 2009).  Classification was achieved using decision tree modeling that employed a combination of Landsat imagery, reflectance derivatives, and ancillary data (independent variables) with training data points (dependent variable) collected from a refined version of the NLCD 2006 land cover product.  Training points were randomly sampled and limited to those areas that were determined to be unchanged between 2006 and 2011 during the MIICA spectral change analysis process.  Training data for pixels changed to developed land cover were not collected since the four classes in urban and sub-urban areas were mapped separately using a regression tree modeling method (described in the Imperviousness Change Analysis process steps above).  Post classification modeling and hand-editing were used to further refine the decision tree output.  Following classification, the 2011 land cover was masked with the change/no-change result (captured during the MIICA change analysis modeling) to extract a label for spectrally changed pixels.  Labeled change pixels were then compared to the NLCD 2006 land cover base to exclude those pixels identified as spectral change, but classified with the same label as the corresponding 2006 pixel.  
-NLCD 2011 percent developed impervious pixels, identified as changed, were extracted to NLCD developed class codes using NLCD 2011 legend thresholds for developed classes and added to the change pixel map.  This intermediate change pixel product was generalized using the NLCD Smart Eliminate tool with the following minimum mapping units (mmu) applied:  1 acre (approximately 5 ETM+ 30 m  pixel patch) for developed classes (class codes 21, 22, 23, and 24); 7.12 acres (approximately 32 ETM+ pixel patch) for agricultural classes (class codes 81 and 82); and 2.67 acres (approximately 12 ETM+ pixel patch) for all other classes (class codes 11, 12, 31, 41, 42, 43, 52, 71, 90, and 95).  The smart eliminate aggregation program subsumes pixels from the single pixel level to the mmu pixel patch using a queens algorithm at doubling intervals. The algorithm consults a weighting matrix to guide merging of cover types by similarity, resulting in a product that preserves land cover logic as much as possible.  During the NLCD 2011 analysis and modeling process, inconsistencies in the NLCD 2001 and 2006 land cover products were corrected with the revised products, NLCD 2001 and NLCD 2006 Land Cover (2011 Editions), included as part of the NLCD 2011 product release.  
-NLCD 2011 Land Cover (Final Product):  Additional processing steps were implemented to create the final NLCD 2011 land cover map.  Individual path/row change pixel results were assembled to form an intermediate seamless national product.  This seamless change pixel map was reviewed and edited to remove regional inconsistencies.  Refined NLCD 2011 change pixels were then combined with the re-issued NLCD 2006 Land Cover Version (2011 Edition), and the resulting image was smart-eliminated to a 5-pixel mmu.  This final step eliminated single pixels and patches less than 5 pixels in extent that appeared as a result of combining the separate images.  
-NLCD 2011 Change Pixels (Final Product): 
-A comparison of the NLCD 2006 (2011 Edition) base and the NLCD 2011 Land Cover was necessary to extract a final version of the NLCD 2011 Change Pixels.  In a model, pixels that were labeled with the same land cover class code were removed and only those pixels that did not agree in the two classifications were retained as final NLCD 2011 Change Pixels.  
-NLCD 2006/2011 Percent Developed Imperviousness Change: 
-The NLCD 2006 Percent Developed Imperviousness (2011 Edition)and the NLCD 2011 Percent Developed Imperviousness were compared in a model to provide the user community with a layer that depicts imperviousness change between 2006 and 2011.  
+        <procdesc>Landsat image selection and preprocessing:
+For NLCD 2011 change analysis, two 2-date pairs of Landsat scenes were selected for each path/row to represent ground conditions in circa 2006 and 2011.  One additional circa 2011 scene was selected to enhance modeling results for land cover labeling. In selecting the 5 scenes, the temporal range of the imagery was restricted to reduce the impact of seasonal and phenological variation.  A pre-processing step was performed to convert the digital number to top of atmosphere reflectance using procedures similar to those established for the NLCD 2001 mapping effort (Homer et al., 2004).  Reflectance derivatives, including a tasseled-cap transformation and a 3-ratio index, were generated for each scene to use in the modeling process as independent variables.  Where present, clouds and cloud shadows were digitized and masked.
+NLCD 2011 Percent Developed Imperviousness and Percent Developed Imperviousness Change Analysis:
+Because the four NLCD developed classes are derived from a percent imperviousness mapping product, an overview of steps required to update the NLCD 2001 imperviousness to reflect urban growth captured in 2006 era Landsat imagery is provided here (Xian et al., 2010).  These same procedures were employed to produce NLCD 2011 Percent Developed Imperviousness and 2006-2011 Percent Developed Imperviousness Change.
+First, 2009 nighttime lights imagery from the NOAA Defense Meteorological Satellite Program (DMSP) was imposed on the NLCD 2006 impervious surface product to exclude low density imperviousness outside urban and suburban centers so that only imperviousness in urban core areas would be used in the training dataset. Two training datasets, one having a relatively larger urban extent and one having a smaller extent, were produced through imposing two different thresholds on city light imagery.
+Second, each of the two training datasets combined with 2006 Landsat imagery was separately applied using a regression tree (RT) algorithm to build up RT models. Two sets of RT models were then used to estimate percent imperviousness and to produce two 2006 synthetic impervious surfaces. Similarly, the same two training datasets were used with 2011 Landsat imagery to create two sets of RT models that produce two 2011 synthetic impervious surfaces.
+Third, the 2006 and 2011 synthetic impervious surface pairs were compared using both 2006 impervious surface products to retain 2006 impervious surface area (ISA) in the unchanged areas. The 2009 DMSP nighttime lights imagery was then employed to ensure that non-imperviousness areas were not included and that new impervious surfaces emerged in the city light extent. After this step, two 2011 intermediate impervious surfaces were produced. Finally, the two intermediate products and 2006 imperviousness were compared to remove false estimates in non-urban areas and generate a 2011 impervious surface estimate.  Imperviousness threshold values used to derive the NLCD developed classes are: (Class 21) developed open space (imperviousness &lt; 20%), (Class 22) low-intensity developed (imperviousness from 20 - 49%), (Class 23) medium intensity developed (imperviousness from 50 -79%), and (Class 24) high-intensity developed (imperviousness &gt; 79%).
+To improve NLCD imperviousness the 2011 project included a process to reduce omission and commission error in NLCD 2001, 2006, and 2011 products.  This activity was completed for urban areas in most of the eastern ½ of the conterminous United States.  High resolution (one-meter ground sample distance) National Aerial Imagery Program (NAIP - http//fsa.usda.gov/FSA/) imagery was used to verify imperviousness.  Using hand-edits, imperviousness was removed from areas incorrectly identified as developed and added to areas where developed land cover was missed.  A modeling process was implemented to add missed imperviousness changes to the correct era and to fill areas where developed was removed with an appropriate non-developed land cover class.  These improvements were incorporated with the derived developed classes in all areas of imperviousness and land cover versions released with NLCD 2011 editions.  Revised products, NLCD 2001 and NLCD 2006 Impervious (2011 Editions) and NLCD 2001-2006 Impervious Change Pixels (2011 Edition) are included as part of the NLCD 2011 product release.
+Land Cover Change Analysis:
+For the NLCD 2011 Land Cover Update, a variation of the Multi-Index Integrated Change Analysis (MIICA) used in NLCD 2006 spectral change analysis was refined to capture land cover disturbance and potential land cover change patterns for updating the National Land Cover Database 2011 (Jin et al. 2013). Four indices were integrated into one model to more accurately detect true spectral changes between two time periods.  Within the model, normalized burn ratio (NBR), change vector (CV, Xian et al., 2009), relative change vector (RCV), and normalized difference vegetation index (NDVI) are calculated separately for the early date (circa 2006) and late date (circa 2011) scenes.  The four pairs of indices for the two dates are differenced and then evaluated in a final model conditional statement that categorizes each pixel as either biomass increase, biomass decrease, or no change.  For NLCD 2011, two image pairs of circa 2006 and circa 2011, ideally one leaf-on pair and one leaf-off pair are used interactively in each path/row.  The integrated change result is clumped and sieved to produce a refined change/no-change mask used to identify potential change pixels that are then labeled with the NLCD 2011 class.
+NLCD 2011 Land Cover Classification:
+Land cover mapping protocols used during NLCD 2011 processing are similar to those used to label the NLCD 2001 product (Homer et al., 2004), but applied on a path/row basis instead of multiple path/row MRLC zones (Xian et al., 2009).  Classification was achieved using decision tree modeling that employed a combination of Landsat imagery, reflectance derivatives, and ancillary data (independent variables) with training data points (dependent variable) collected from a refined version of the NLCD 2006 land cover product.  Training points were randomly sampled and limited to those areas that were determined to be unchanged between 2006 and 2011 during the MIICA spectral change analysis process.  Training data for pixels changed to developed land cover were not collected since the four classes in urban and sub-urban areas were mapped separately using a regression tree modeling method (described in the Imperviousness Change Analysis process steps above).  Post classification modeling and hand-editing were used to further refine the decision tree output.  Following classification, the 2011 land cover was masked with the change/no-change result (captured during the MIICA change analysis modeling) to extract a label for spectrally changed pixels.  Labeled change pixels were then compared to the NLCD 2006 land cover base to exclude those pixels identified as spectral change, but classified with the same label as the corresponding 2006 pixel.
+NLCD 2011 percent developed impervious pixels, identified as changed, were extracted to NLCD developed class codes using NLCD 2011 legend thresholds for developed classes and added to the change pixel map.  This intermediate change pixel product was generalized using the NLCD Smart Eliminate tool with the following minimum mapping units (mmu) applied:  1 acre (approximately 5 ETM+ 30 m  pixel patch) for developed classes (class codes 21, 22, 23, and 24); 7.12 acres (approximately 32 ETM+ pixel patch) for agricultural classes (class codes 81 and 82); and 2.67 acres (approximately 12 ETM+ pixel patch) for all other classes (class codes 11, 12, 31, 41, 42, 43, 52, 71, 90, and 95).  The smart eliminate aggregation program subsumes pixels from the single pixel level to the mmu pixel patch using a queens algorithm at doubling intervals. The algorithm consults a weighting matrix to guide merging of cover types by similarity, resulting in a product that preserves land cover logic as much as possible.  During the NLCD 2011 analysis and modeling process, inconsistencies in the NLCD 2001 and 2006 land cover products were corrected with the revised products, NLCD 2001 and NLCD 2006 Land Cover (2011 Editions), included as part of the NLCD 2011 product release.
+NLCD 2011 Land Cover (Final Product):  Additional processing steps were implemented to create the final NLCD 2011 land cover map.  Individual path/row change pixel results were assembled to form an intermediate seamless national product.  This seamless change pixel map was reviewed and edited to remove regional inconsistencies.  Refined NLCD 2011 change pixels were then combined with the re-issued NLCD 2006 Land Cover Version (2011 Edition), and the resulting image was smart-eliminated to a 5-pixel mmu.  This final step eliminated single pixels and patches less than 5 pixels in extent that appeared as a result of combining the separate images.
+NLCD 2011 Change Pixels (Final Product):
+A comparison of the NLCD 2006 (2011 Edition) base and the NLCD 2011 Land Cover was necessary to extract a final version of the NLCD 2011 Change Pixels.  In a model, pixels that were labeled with the same land cover class code were removed and only those pixels that did not agree in the two classifications were retained as final NLCD 2011 Change Pixels.
+NLCD 2006/2011 Percent Developed Imperviousness Change:
+The NLCD 2006 Percent Developed Imperviousness (2011 Edition)and the NLCD 2011 Percent Developed Imperviousness were compared in a model to provide the user community with a layer that depicts imperviousness change between 2006 and 2011.
 Landsat data and ancillary data used for the land cover prediction -
 For a list of Landsat scene dates by path/row used in this project, please see:  appendix3_nlcd2011_scene_list_by_path_row.txt
 Data Type of DEM composed of 1 band of Continuous Variable Type.
@@ -167,7 +166,7 @@ Data type of 3-ratio index composed of 3 bands of Continuous Variable Type.</pro
         <srcprod>USGS National Land Cover Database</srcprod>
       </procstep>
       <procstep>
-        <procdesc>Process Step for NLCD 2011 (amended 2014): 
+        <procdesc>Process Step for NLCD 2011 (amended 2014):
 The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 was made to correct for unintended differences between the impervious dataset and the four land cover developed classes (Open Space, Low Intensity, Medium Intensity, and High Intensity). NLCD developed classes are tied directly to the impervious product values.  However, the land cover product Minimum Mapping Unit (MMU) is five pixels whereas the impervious product MMU is single pixel.  This MMU difference creates problems when the impervious single pixel MMU product is directly crosswalked into the 5-pixel MMU land cover developed classes.  The smoothing process, which generalizes the land cover product to a 5-pixel MMU, can create small areas which are no longer directly represented in the imperviousness product because they are artifacts of the smoothing.  Since these changes are not real and not present in the impervious layer, the new version removes these artifacts and re-establishes the direct linkage between the imperviousness and land cover products for any developed area.  Combined developed areas (all developed classes combined into a group) in the land cover product must still meet the 5-pixel MMU threshold; however, the four NLCD land cover individual developed classes within the group patch are now represented by a single pixel MMU to retain the direct linkage to the imperviousness product.</procdesc>
         <procdate>Unknown</procdate>
       </procstep>
@@ -224,22 +223,6 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
         <enttypds>National Land Cover Database</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>ObjectID</attrlabl>
-        <attrdef>Internal feature number</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Count</attrlabl>
-        <attrdef>A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Integer</udom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>Value</attrlabl>
         <attrdef>Land Cover Class Code Value.</attrdef>
         <attrdefs>NLCD Legend Land Cover Class Descriptions</attrdefs>
@@ -249,134 +232,96 @@ The release in 2014 of amended versions of land cover for 2001, 2006, and 2011 w
             <edomvd>Open Water - All areas of open water, generally with less than 25% cover or vegetation or soil</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>12</edomv>
             <edomvd>Perennial Ice/Snow - All areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>21</edomv>
             <edomvd>Developed, Open Space - Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses.  Impervious surfaces account for less than 20 percent of total cover.  These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>22</edomv>
             <edomvd>Developed, Low Intensity -Includes areas with a mixture of constructed materials and vegetation.  Impervious surfaces account for 20-49 percent of total cover.  These areas most commonly include single-family housing units.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>23</edomv>
             <edomvd>Developed, Medium Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover.  These areas most commonly include single-family housing units.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>24</edomv>
             <edomvd>Developed, High Intensity - Includes highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial.  Impervious surfaces account for 80 to 100 percent of the total cover.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>31</edomv>
             <edomvd>Barren Land (Rock/Sand/Clay) - Barren areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>41</edomv>
             <edomvd>Deciduous Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species shed foliage simultaneously in response to seasonal change.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>42</edomv>
             <edomvd>Evergreen Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species maintain their leaves all year. Canopy is never without green foliage.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>43</edomv>
             <edomvd>Mixed Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75 percent of total tree cover.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>51</edomv>
             <edomvd>Dwarf Scrub - Alaska only areas dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>52</edomv>
             <edomvd>Shrub/Scrub - Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>71</edomv>
             <edomvd>Grassland/Herbaceous - Areas dominated by grammanoid or herbaceous vegetation, generally greater than 80% of total vegetation.  These areas are not subject to intensive management such as tilling, but can be utilized for grazing.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>72</edomv>
             <edomvd>Sedge/Herbaceous - Alaska only areas dominated by sedges and forbs, generally greater than 80% of total vegetation. This type can occur with significant other grasses or other grass like plants, and includes sedge tundra, and sedge tussock tundra.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>73</edomv>
             <edomvd>Lichens - Alaska only areas dominated by fruticose or foliose lichens generally greater than 80% of total vegetation.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>74</edomv>
             <edomvd>Moss - Alaska only areas dominated by mosses, generally greater than 80% of total vegetation.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>81</edomv>
             <edomvd>Pasture/Hay - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20 percent of total vegetation.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>82</edomv>
             <edomvd>Cultivated Crops - Areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20 percent of total vegetation. This class also includes all land being actively tilled.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>90</edomv>
             <edomvd>Woody Wetlands - Areas where forest or shrub land vegetation accounts for greater than 20 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
             <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>95</edomv>
             <edomvd>Emergent Herbaceous Wetlands - Areas where perennial herbaceous vegetation accounts for greater than 80 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
@@ -501,13 +446,13 @@ Value Red            Green           Blue
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>29.63</transize>
+              <transize>29.67</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/04/cugir-009004.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/04/cugir-009004.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -521,7 +466,7 @@ Value Red            Green           Blue
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/04/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/04/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -535,7 +480,7 @@ Value Red            Green           Blue
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/04/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/04/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -549,7 +494,7 @@ Value Red            Green           Blue
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009004&amp;bbox=-80.32126365,39.91359711,-70.23095935,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009004&amp;bbox=-80.32126365,39.91359711,-70.23095934999999,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -610,7 +555,7 @@ Value Red            Green           Blue
     <techpreq>ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.</techpreq>
   </distinfo>
   <metainfo>
-      <metd>20180503</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

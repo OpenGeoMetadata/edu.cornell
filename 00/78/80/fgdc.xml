@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS Division</origin>
+        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS
+          Division</origin>
         <pubdate>2005</pubdate>
         <title>Municipal Boundaries, Tompkins County NY, 2005</title>
         <geoform>vector digital data</geoform>
@@ -17,9 +17,12 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This data file is a representation of the municipal boundaries for Tompkins County, NY.</abstract>
-      <purpose>Provides information about the municipal boundaries for Tompkins County, NY.</purpose>
-      <supplinf>Data updated to reflect the incorporation of several parcels of land in the Village of Dryden.</supplinf>
+      <abstract>This data file is a representation of the municipal boundaries for Tompkins County,
+        NY.</abstract>
+      <purpose>Provides information about the municipal boundaries for Tompkins County,
+        NY.</purpose>
+      <supplinf>Data updated to reflect the incorporation of several parcels of land in the Village
+        of Dryden.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -62,7 +65,12 @@
       </place>
     </keywords>
     <accconst>None</accconst>
-    <useconst>The following statement must be included with any products that use or are derived from this data set: Data contained in this product was originally produced by the New York State Department of Transportation and the Tompkins County Information Technology Services GIS Division and may not be reproduced or redistributed without the express written consent of the originators. The originators do not warrant the accuracy or completeness of the information portrayed by the data.</useconst>
+    <useconst>The following statement must be included with any products that use or are derived
+      from this data set: Data contained in this product was originally produced by the New York
+      State Department of Transportation and the Tompkins County Information Technology Services GIS
+      Division and may not be reproduced or redistributed without the express written consent of the
+      originators. The originators do not warrant the accuracy or completeness of the information
+      portrayed by the data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -85,12 +93,14 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/78/80/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/80/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
-    <datacred>New York State Department of Transportation and the Tompkins County GIS Division.</datacred>
-    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+    <datacred>New York State Department of Transportation and the Tompkins County GIS
+      Division.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog
+      9.1.0.722</native>
   </idinfo>
   <spdoinfo>
         <direct>Vector</direct>
@@ -142,24 +152,9 @@
         <enttypds>Tompkins County GIS 2002</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>FID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
         <attrlabl>PERIMETER</attrlabl>
-        <attrdef>The sum of the lengths of the sides of the polygon that comprise each municipality.</attrdef>
+        <attrdef>The sum of the lengths of the sides of the polygon that comprise each
+          municipality.</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2002.</attrdefs>
         <attrdomv>
           <udom>Positive real numbers.</udom>
@@ -178,66 +173,7 @@
         <attrdef>Common name of the Municipality.</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2002.</attrdefs>
         <attrdomv>
-          <edom>
-            <edomv>Caroline</edomv>
-            <edomvd>Caroline</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Danby</edomv>
-            <edomvd>Danby</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Dryden</edomv>
-            <edomvd>Dryden</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Freeville</edomv>
-            <edomvd>Freeville</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Enfield</edomv>
-            <edomvd>Enfield</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Groton</edomv>
-            <edomvd>Groton</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Cayuga Heights</edomv>
-            <edomvd>cayuga Heights</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Ithaca</edomv>
-            <edomvd>Ithaca</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Lansing</edomv>
-            <edomvd>Lansing</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Newfield</edomv>
-            <edomvd>Newfield</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Trumansburg</edomv>
-            <edomvd>Trumansburg</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Ulysses</edomv>
-            <edomvd>Ulysses</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
+          <udom>string</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -245,81 +181,7 @@
         <attrdef>Full name of the Municipality</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2002.</attrdefs>
         <attrdomv>
-          <edom>
-            <edomv>Town of Caroline</edomv>
-            <edomvd>Town of Caroline</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Danby</edomv>
-            <edomvd>Town of Danby</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Dryden</edomv>
-            <edomvd>Village of Dryden</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Freeville</edomv>
-            <edomvd>Village of Freeville</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Dryden</edomv>
-            <edomvd>Town of Dryden</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Groton</edomv>
-            <edomvd>Village of Groton</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Groton</edomv>
-            <edomvd>Town of Groton</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Cayuga Heights</edomv>
-            <edomvd>Village of Cayuga Heights</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Ithaca</edomv>
-            <edomvd>Town of Ithaca</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Lansing</edomv>
-            <edomvd>Village of Lansing</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Lansing</edomv>
-            <edomvd>Town of Lansing</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Newfield</edomv>
-            <edomvd>Town of Newfield</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Village of Trumansburg</edomv>
-            <edomvd>Village of Trumansburg</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>Town of Ulysses</edomv>
-            <edomvd>Town of Ulysses</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>City of Ithaca</edomv>
-            <edomvd>City of Ithaca</edomvd>
-            <edomvds>Tompkins County ITS GIS Division, 2002.</edomvds>
-          </edom>
+          <udom>string</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -332,7 +194,8 @@
       </attr>
       <attr>
         <attrlabl>BOUNDARY</attrlabl>
-        <attrdef>Describes how municipal boundary was obtained via survey or deed description</attrdef>
+        <attrdef>Describes how municipal boundary was obtained via survey or deed
+          description</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2002.</attrdefs>
         <attrdomv>
           <udom>Free text.</udom>
@@ -404,7 +267,8 @@
       </attr>
       <attr>
         <attrlabl>FIPS1990</attrlabl>
-        <attrdef>New York State Federal Information Processing Standard Code for the municipality.</attrdef>
+        <attrdef>New York State Federal Information Processing Standard Code for the
+          municipality.</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2002.</attrdefs>
         <attrdomv>
           <udom>A five-digit number.</udom>
@@ -415,91 +279,13 @@
         <attrdef>State SWIS code for the municipality.</attrdef>
         <attrdefs>New York State Office of Real Property Services, 2002.</attrdefs>
         <attrdomv>
-          <edom>
-            <edomv>500200</edomv>
-            <edomvd>500200- Town of Caroline</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502200</edomv>
-            <edomvd>502200- Town of Danby</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502401</edomv>
-            <edomvd>502401-Village of Dryden</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502403</edomv>
-            <edomvd>502403-Village of Freeville</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502489</edomv>
-            <edomvd>502489- Town of Dryden</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502600</edomv>
-            <edomvd>502600- Town of Enfield</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502801</edomv>
-            <edomvd>502801- Village of Groton</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>502889</edomv>
-            <edomvd>502889-Town of Groton</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503001</edomv>
-            <edomvd>503001- Village of Cayuga Heights</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503089</edomv>
-            <edomvd>503089- Town of Ithaca</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503201</edomv>
-            <edomvd>503201- Village of Lansing</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503289</edomv>
-            <edomvd>503289- Town of Lansing</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503400</edomv>
-            <edomvd>503400- Town of Newfield</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503601</edomv>
-            <edomvd>503601- Village of Trumansburg</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>503689</edomv>
-            <edomvd>503689- Town of Ulysses</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
-          <edom>
-            <edomv>500700</edomv>
-            <edomvd>500700- City of Ithaca</edomvd>
-            <edomvds>New York State Office of Real Property Services, 2002.</edomvds>
-          </edom>
+          <udom>string</udom>
         </attrdomv>
       </attr>
       <attr>
         <attrlabl>SQMILES</attrlabl>
-        <attrdef>Area of municipal polygon in square miles which is obtained by calculating the total Acres x .001562559</attrdef>
+        <attrdef>Area of municipal polygon in square miles which is obtained by calculating the
+          total Acres x .001562559</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2005.</attrdefs>
         <attrdomv>
           <udom>Positive real numbers.</udom>
@@ -507,7 +293,8 @@
       </attr>
       <attr>
         <attrlabl>ACRES</attrlabl>
-        <attrdef>Total calculated acreage of the polygon which is the value of the area field divided by 43560 (Shape_area/43560)</attrdef>
+        <attrdef>Total calculated acreage of the polygon which is the value of the area field
+          divided by 43560 (Shape_area/43560)</attrdef>
         <attrdefs>Tompkins County ITS GIS Division, 2005.</attrdefs>
         <attrdomv>
           <udom>Positive real numbers.</udom>
@@ -564,13 +351,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.03</transize>
+              <transize>0.07</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/78/80/cugir-007880.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/80/cugir-007880.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -584,7 +371,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/78/80/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/80/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -598,7 +385,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/78/80/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/80/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -640,7 +427,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007880&amp;bbox=-76.71003409,42.2517564,-76.22359691,42.6383596&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007880&amp;bbox=-76.71003409000001,42.2517564,-76.22359691,42.6383596&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -669,10 +456,17 @@
       </cntinfo>
     </distrib>
     <resdesc>Downloadable Data</resdesc>
-    <distliab>Tompkins County provides these geographic data "as is". Tompkins County makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Tompkins County further makes no warranty either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these files have been processed successfully on computers at Tompkins County, no warranty is made by Tompkins County regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.</distliab>
+    <distliab>Tompkins County provides these geographic data "as is". Tompkins County makes no
+      guarantee or warranty concerning the accuracy of information contained in the geographic data.
+      Tompkins County further makes no warranty either expressed or implied, regarding the condition
+      of the product or its fitness for any particular purpose. The burden for determining fitness
+      for use lies entirely with the user. Although these files have been processed successfully on
+      computers at Tompkins County, no warranty is made by Tompkins County regarding the use of
+      these data on any other system, nor does the fact of distribution constitute or imply any such
+      warranty.</distliab>
   </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -241,13 +240,13 @@
               <formname>E00</formname>
               <formcont>zipped Arc/Info .e00 file</formcont>
               <filedec>zip</filedec>
-              <transize>0.52</transize>
+              <transize>0.54</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/72/24/cugir-007224.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/72/24/cugir-007224.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -261,7 +260,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/72/24/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/72/24/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -275,7 +274,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/72/24/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/72/24/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -283,7 +282,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20180220</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

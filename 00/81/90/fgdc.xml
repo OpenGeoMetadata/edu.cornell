@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -34,10 +33,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-80.0</westbc>
+            <westbc>-80</westbc>
             <eastbc>-69.883331</eastbc>
-            <northbc>45.0</northbc>
-            <southbc>40.0</southbc>
+            <northbc>45</northbc>
+            <southbc>40</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -81,7 +80,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/81/90/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/81/90/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -249,7 +248,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/90/cugir-008190.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/90/cugir-008190.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -263,7 +262,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/90/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/90/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -277,7 +276,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/90/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/90/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -327,7 +326,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

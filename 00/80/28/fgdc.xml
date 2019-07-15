@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -159,7 +158,7 @@ even though the raw input data may encompass a larger area.
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/80/28/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/28/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -633,7 +632,7 @@ Categorization Code   Land Cover
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/28/cugir-008028.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/cugir-008028.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -647,7 +646,7 @@ Categorization Code   Land Cover
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/28/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -661,7 +660,7 @@ Categorization Code   Land Cover
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/80/28/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -675,7 +674,7 @@ Categorization Code   Land Cover
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008028&amp;bbox=-80.24688124,40.26650988,-71.39990076,45.16148812&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008028&amp;bbox=-80.24688124,40.26650988,-71.39990076000001,45.16148812&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -754,7 +753,7 @@ official DVD/CD for the cost of the reproduction.
     <techpreq>If the user does not have software capable of viewing GEOTIF (.tif) or ERDAS Imagine (.img) file formats then we suggest using the freeware browser ESRI ArcGIS Explorer &lt;http://www.esri.com/software/arcgis/explorer/&gt;.</techpreq>
   </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>

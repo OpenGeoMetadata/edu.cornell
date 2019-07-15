@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -6,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20180531</pubdate>
-        <title>Agricultural Districts, New York State, 2018</title>
+        <pubdate>20190412</pubdate>
+        <title>Agricultural Districts, New York State, 2019</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -17,16 +16,18 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Statewide geographic boundaries of lands that are under the protection of NYS
-        Agricultural District Law, administered by the New York State Department of Agriculture and
-        Markets. The boundaries are derived from New York State Agricultural District,
-        1:24,000-scale, maps produced at county agencies. The district boundaries correspond to tax
-        parcel data. District boundaries are joined into a file representing all of the Agricultural
-        Districts within an entire county. Note that 2003 legislation allows lands to be added to
-        districts on an annual basis. Electronic data provided here may predate those additions. Tax
-        parcel detail is not included in this dataset. Rights-of-way for local, state and federal
-        highways, railroads and utilities are only included when they are delineated on the original
-        1:24,000 scale maps.</abstract>
+      <abstract>This statewide shapefile represents geographic boundaries for lands that are under
+        the protection of NYS Agricultural District Law, administered by the New York State
+        Department of Agriculture and Markets. The boundaries are derived from New York State
+        Agricultural District, 1:24,000-scale, maps produced at county agencies. The district
+        boundaries correspond to tax parcel data. District boundaries are joined into a file
+        representing all of the Agricultural Districts within an entire county. Note that 2003
+        legislation allows lands to be added to districts on an annual basis. Electronic data
+        provided here may predate those additions. When annual additions are included, an additional
+        field (OEadds303b) is annexed to the attribute table; the dates of the annual additions
+        listed in that field. Tax parcel detail and secondary rights-of-way are not included in this
+        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
+        included when they are delineated on the original 1:24,000 scale maps.</abstract>
       <purpose>A Geographic Information System file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -41,12 +42,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20180531</caldate>
+          <caldate>20190412</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -68,7 +69,6 @@
         <themekt>None</themekt>
         <themekey>New York State Agricultural District boundaries</themekey>
         <themekey>Agriculture and Markets</themekey>
-        <themekey>Agricultural Districts Mapping Program</themekey>
       </theme>
       <theme>
         <themekt>ISO 19115 Topic Category</themekt>
@@ -112,7 +112,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/10/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/90/10/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -162,13 +162,94 @@
           <timeinfo>
             <rngdates>
               <begdate>1987</begdate>
-              <enddate>2017</enddate>
+              <enddate>2019</enddate>
             </rngdates>
           </timeinfo>
           <srccurr>8-year certification dates</srccurr>
         </srctime>
         <srccitea>origmaps</srccitea>
         <srccontr>original district boundaries</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+              Cornell Institute for Resource Information Sciences (Cornell IRIS)
+            </origin>
+            <origin>NYS Department of Agriculture and Markets</origin>
+            <pubdate>2009-2019</pubdate>
+            <title>Agricultural Districts, NY county datasets, 2009-2019</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Agricultural Districts (NYS Ag and Markets)</sername>
+            </serinfo>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007948</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007949</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007950</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007951</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007952</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007953</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007954</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007955</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007956</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007957</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007958</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007959</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007960</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007961</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007962</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007963</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007964</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007965</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007966</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007967</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007968</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007969</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007970</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007971</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007972</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007973</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007974</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007975</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007976</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007977</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007978</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007979</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007980</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007981</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007982</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007983</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007984</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007985</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007986</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007987</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007988</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007989</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007990</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007991</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007992</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007993</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007994</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007995</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007996</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007997</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007998</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-007999</onlink>
+            <onlink>https://cugir.library.cornell.edu/catalog/cugir-008000</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2009</begdate>
+              <enddate>2019</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Agricultural District county datasets</srccitea>
+        <srccontr>individual county datasets that were merged into a statewide dataset</srccontr>
       </srcinfo>
       <procstep>
         <procdesc>1) ORIGINAL SCAN PROJECT In 1996, the entire set of NYS Agricultural District maps
@@ -269,7 +350,7 @@
         <procdesc>4) MERGING COUNTY FILES INTO STATEWIDE BOUNDARIES County agricultural district
           boundary files, as published annually, are merged into a state-wide file. Further clean-up
           of data to remove slivers and extraneous line features.</procdesc>
-        <procdate>20180606</procdate>
+        <procdate>20190408 through 20190412</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -294,8 +375,8 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>36437</ptvctcnt>
+            <sdtstype>Polygon</sdtstype>
+            <ptvctcnt>36926</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -435,13 +516,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>12.26</transize>
+              <transize>21.23</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/10/cugir-009010.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/10/cugir-009010.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -455,7 +536,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/10/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/10/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -469,7 +550,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/10/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/10/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -552,7 +633,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180606</metd>
+      <metd>20190621</metd>
       <metc>
         <cntinfo>
           <cntorgp>

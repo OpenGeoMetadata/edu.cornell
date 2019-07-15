@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -87,7 +86,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/74/98/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/74/98/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -239,9 +238,6 @@
       </enttyp>
       <attr>
         <attrlabl>AREA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Geometry</attrlabl>
       </attr>
       <attr>
         <attrlabl>PERIMETER</attrlabl>
@@ -720,32 +716,6 @@
         <enddatea>10/17/2001</enddatea>
         <attrmfrq>As needed</attrmfrq>
       </attr>
-      <attr>
-        <attrlabl>SOILSURVEY_ID</attrlabl>
-      </attr>
-    </detailed>
-    <detailed>
-      <enttyp>
-        <enttypl>Captured</enttypl>
-      </enttyp>
-      <attr>
-        <attrlabl>AREA</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>Geometry</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>PERIMETER</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SOILNAME</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SOILSURVEY_</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SOILSURVEY_ID</attrlabl>
-      </attr>
     </detailed>
     <overview>
       <eaover>The data set contains of soil boundary polygons with label points. Each polygon defines a soil type represented by a symbol assigned in SOILNAME field.</eaover>
@@ -785,13 +755,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>22.17</transize>
+              <transize>22.31</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/98/cugir-007498.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/cugir-007498.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -805,7 +775,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/98/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -819,7 +789,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/74/98/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -861,7 +831,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007498&amp;bbox=-76.71002791,42.2517564,-76.22359709,42.6383596&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007498&amp;bbox=-76.71002791000001,42.2517564,-76.22359709,42.6383596&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -869,7 +839,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

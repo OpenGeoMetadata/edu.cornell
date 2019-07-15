@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -75,7 +74,7 @@
             Vedachalam, S., Joo, T., Riha, S.J. (2015). Septic Systems in New
             York: A Statewide Enumeration using Census Tract-Level Parcel Data.
             Ithaca, NY: New York State Water Resources Institute. Available at
-            http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=8164 </useconst>
+            https://cugir.library.cornell.edu/catalog/cugir-008164 </useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -96,7 +95,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/81/64/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/81/64/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -324,13 +323,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>5.63</transize>
+              <transize>5.73</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/64/cugir-008164.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/64/cugir-008164.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -344,7 +343,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/64/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/64/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -358,7 +357,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/81/64/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/64/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -408,7 +407,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171211</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

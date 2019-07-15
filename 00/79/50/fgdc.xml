@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -117,7 +116,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/79/50/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/79/50/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -432,13 +431,13 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>1.20</transize>
+              <transize>1.26</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/50/cugir-007950.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/50/cugir-007950.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -452,7 +451,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/50/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/50/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -466,7 +465,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/50/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/50/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -480,7 +479,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/50/agBROO.pdf</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/50/agBROO.pdf</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -494,7 +493,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/79/50/agBROO2011.kmz</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/50/agBROO2011.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -522,7 +521,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007950&amp;bbox=-76.1511559,41.98546245,-75.3990541,42.42714855&amp;width=256&amp;height=150&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007950&amp;bbox=-76.15115589999999,41.98546245,-75.3990541,42.42714855&amp;width=256&amp;height=150&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -563,7 +562,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20180612</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -84,7 +83,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/00/55/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/00/55/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -304,7 +303,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/00/55/cugir-000055.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/55/cugir-000055.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -318,7 +317,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/00/55/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/55/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -332,7 +331,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/00/55/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/55/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -374,7 +373,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir000055&amp;bbox=-76.70728637,42.26104051,-76.23348863,42.63806449&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir000055&amp;bbox=-76.70728637,42.26104051,-76.23348863,42.638064490000005&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -406,7 +405,7 @@
     <distliab>Tompkins County does not warrant the accuracy or completeness of the information portrayed in this data. The end user of the data and products derived from it agrees to accept the data "as is", with the full knowledge that errors and omissions may exist. The end user further agrees to hold harmless Tompkins County for any liability or damages that may result from an improper or inappropriate use of the data. Cornell University provides these geographic data "as is." Cornell makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Cornell further makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers at Cornell University, no warranty is made by Cornell regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.</distliab>
   </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

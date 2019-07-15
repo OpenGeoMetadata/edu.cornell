@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -163,7 +162,7 @@ users are responsible for obtaining the latest version of the data.
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/82/16/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/82/16/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -1231,7 +1230,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/82/16/cugir-008216.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/82/16/cugir-008216.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1245,7 +1244,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/82/16/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/82/16/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1259,7 +1258,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/82/16/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/82/16/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1301,7 +1300,7 @@ Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008216&amp;bbox=-73.93997889,40.78143368,-73.74285811,40.92150632&amp;width=256&amp;height=181&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008216&amp;bbox=-73.93997888999999,40.78143368,-73.74285811,40.92150632&amp;width=256&amp;height=181&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -1393,7 +1392,7 @@ delimited, ASCII file format.
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20171005</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

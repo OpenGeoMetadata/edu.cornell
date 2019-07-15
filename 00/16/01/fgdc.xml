@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -34,10 +33,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-79.763458</westbc>
-            <eastbc>-71.856369</eastbc>
-            <northbc>45.010909</northbc>
-            <southbc>40.498968</southbc>
+            <westbc>-79.763229</westbc>
+            <eastbc>-71.85588</eastbc>
+            <northbc>45.010957</northbc>
+            <southbc>40.499074</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -90,7 +89,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/16/01/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/16/01/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -241,7 +240,7 @@
   <eainfo>
     <overview>
       <eaover>DLG3 attribute codes are used to describe the physical and cultural characteristics of DLG node, line, and area elements. Attribute codes are used to reduce redundant information, provide enough reference information to support integration with larger data base, and describe the relationships between cartographic elements. Each DLG element has one or more attribute codes composed of a three digit major code and a four-digit minor code.</eaover>
-      <eadetcit>U.S Department of the Interior, U.S. Geological Survey, 1990, 1:2,000,000-scale Digital Line Graphs, Data Users Guide 3, Reston, VA. A hypertext extract is available at &lt;http://edcwww.cr.usgs.gov/glis/hyper/guide/2mil&gt;. Softcopies in ASCII, WordPerfect and PostScript formats are available at &lt;ftp://www-nmd.usgs.gov/pub/ti/DLG/2mdlguide/&gt;.</eadetcit>
+      <eadetcit>U.S Department of the Interior, U.S. Geological Survey, 1990, 1:2,000,000-scale Digital Line Graphs, Data Users Guide 3, Reston, VA. A hypertext extract is available at &lt;https://web.archive.org/web/20010813081226/http://edcwww.cr.usgs.gov/glis/hyper/guide/2mil&gt;.</eadetcit>
     </overview>
   </eainfo>
   <distinfo>
@@ -283,7 +282,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/16/01/cugir-001601.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/01/cugir-001601.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -297,7 +296,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/16/01/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/01/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -311,7 +310,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/16/01/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/01/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -353,7 +352,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir001601&amp;bbox=-80.00067067,40.36360977,-71.61915633,45.14626723&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir001601&amp;bbox=-80.00044946999999,40.36371751,-71.61865953,45.14631349&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -361,7 +360,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

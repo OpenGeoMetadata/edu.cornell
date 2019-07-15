@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -16,9 +15,17 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This data set includes ferrous metal processing plants in the United States. The data represent commodities covered by the Minerals Information Team (MIT) of the U.S. Geological Survey, and the companies are those considered active in 1997 and surveyed by the MIT.</abstract>
-      <purpose>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</purpose>
-      <supplinf>Additional minerals operations information can be obtained from the U.S. Geological Survey Minerals Information web page at &lt;http://minerals.er.usgs.gov/minerals/&gt;.</supplinf>
+      <abstract>This data set includes ferrous metal processing plants in the United States. The
+        data represent commodities covered by the Minerals Information Team (MIT) of the U.S.
+        Geological Survey, and the companies are those considered active in 1997 and surveyed by the
+        MIT.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level,
+        and for large regional areas. The data should be displayed and analyzed at scales
+        appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological
+        Survey in the use of these data.</purpose>
+      <supplinf>Additional minerals operations information can be obtained from the U.S. Geological
+        Survey Minerals Information web page at
+        &lt;http://minerals.er.usgs.gov/minerals/&gt;.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -35,7 +42,7 @@
     <spdom>
           <bounding>
             <westbc>-79.044797</westbc>
-            <eastbc>-79.043597</eastbc>
+            <eastbc>-79.04359699999999</eastbc>
             <northbc>43.122399</northbc>
             <southbc>43.121199</southbc>
           </bounding>
@@ -71,7 +78,9 @@
       </place>
     </keywords>
     <accconst>None</accconst>
-    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or) the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or)
+      the U.S. Geological Survey would be appreciated in products derived from these
+      data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntperp>
@@ -90,7 +99,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/73/29/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/29/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -98,7 +107,9 @@
   </idinfo>
   <dataqual>
     <logic>No tests for logical consistency were performed on this data set.</logic>
-    <complete>This category includes only U.S. minerals operations covered by the Minerals Information Team of the U.S. Geological Survey and considered currently active in 1997. No energy minerals operations are included.</complete>
+    <complete>This category includes only U.S. minerals operations covered by the Minerals
+      Information Team of the U.S. Geological Survey and considered currently active in 1997. No
+      energy minerals operations are included.</complete>
     <lineage>
       <srcinfo>
         <srccite>
@@ -121,11 +132,31 @@
         <srccontr>Minerals operations descriptions</srccontr>
       </srcinfo>
       <procstep>
-        <procdesc>AMIS contains both proprietary and nonproprietary information. For each commodity, the Minerals Information Team (MIT) extracted from AMIS the nonproprietary information useful for this application and placed this information in a separate data base. The MIT determined latitude and longitude for each mineral operation from at least one of the following sources: Minerals Availability System/Minerals Industry Location System (MAS/MILS) CD-ROM, U.S. Bureau of Mines Special Publication 12-95 Mineral Resources Data System (MRDS), U.S. Geological Survey, Digital Data Series, DDS-20 Part 50 Data; Mine Accident, Injury, Illness, Employment and Coal Production Statistics; U.S. Department of Labor, Mine Safety and Health Administration, available at &lt;http://www.msha.gov/STATS/PART50/p50y2k/p50y2k.htm&gt; &lt;http://www.yahoo.com&gt; Searches performed on company or operation name. &lt;http://www.switchboard.com&gt; Searches performed on company or operation name. &lt;http://www.epa.gov/enviro.html/multisystem_query_java.html&gt; Searches performed on company or operation name. Whenever possible the locational information was checked for accuracy. The minerals operations were then placed in commodity groupings. The resulting database file was loaded to ArcView and converted to ESRI Shapefile format. The National Atlas staff converted the shapefile to an Arc/INFO coverage and then to NAD83. The result was then converted back to shapefile format.</procdesc>
+        <procdesc>AMIS contains both proprietary and nonproprietary information. For each commodity,
+          the Minerals Information Team (MIT) extracted from AMIS the nonproprietary information
+          useful for this application and placed this information in a separate data base. The MIT
+          determined latitude and longitude for each mineral operation from at least one of the
+          following sources: Minerals Availability System/Minerals Industry Location System
+          (MAS/MILS) CD-ROM, U.S. Bureau of Mines Special Publication 12-95 Mineral Resources Data
+          System (MRDS), U.S. Geological Survey, Digital Data Series, DDS-20 Part 50 Data; Mine
+          Accident, Injury, Illness, Employment and Coal Production Statistics; U.S. Department of
+          Labor, Mine Safety and Health Administration, available at
+          &lt;http://www.msha.gov/STATS/PART50/p50y2k/p50y2k.htm&gt; &lt;http://www.yahoo.com&gt;
+          Searches performed on company or operation name. &lt;http://www.switchboard.com&gt;
+          Searches performed on company or operation name.
+          &lt;http://www.epa.gov/enviro.html/multisystem_query_java.html&gt; Searches performed on
+          company or operation name. Whenever possible the locational information was checked for
+          accuracy. The minerals operations were then placed in commodity groupings. The resulting
+          database file was loaded to ArcView and converted to ESRI Shapefile format. The National
+          Atlas staff converted the shapefile to an Arc/INFO coverage and then to NAD83. The result
+          was then converted back to shapefile format.</procdesc>
         <procdate>1998</procdate>
       </procstep>
       <procstep>
-        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas Data for distribution in CUGIR, the nationwide data files were added to a map document in ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were clipped to the detailed New York polygon.</procdesc>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas
+          Data for distribution in CUGIR, the nationwide data files were added to a map document in
+          ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were
+          clipped to the detailed New York polygon.</procdesc>
         <procdate>200212</procdate>
       </procstep>
     </lineage>
@@ -158,30 +189,16 @@
     <detailed>
       <enttyp>
         <enttypl>Ferrous Metal Processing Plants</enttypl>
-        <enttypd>Facilities that process and distribute ferrous metals, or that extract and process ferrous metals.</enttypd>
+        <enttypd>Facilities that process and distribute ferrous metals, or that extract and process
+          ferrous metals.</enttypd>
         <enttypds>U.S. Geological Survey, Minerals Information Team</enttypds>
       </enttyp>
-      <attr>
-        <attrlabl>Shape</attrlabl>
-        <attrdef>The representation of the entity in the data.</attrdef>
-        <attrdefs>U.S. Geological Survey</attrdefs>
-        <attrdomv>
-          <edom>
-            <edomv>Point</edomv>
-            <edomvd>0-dimensional element.</edomvd>
-            <edomvds>ESRI GIS software</edomvds>
-          </edom>
-        </attrdomv>
-      </attr>
       <attr>
         <attrlabl>Area</attrlabl>
         <attrdef>The size of the shape in coverage units.</attrdef>
         <attrdefs>U.S. Geological Survey</attrdefs>
         <attrdomv>
-          <rdom>
-            <rdommin>0.000</rdommin>
-            <rdommax>0.000</rdommax>
-          </rdom>
+          <udom>real number</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -189,10 +206,7 @@
         <attrdef>The perimeter of the shape in coverage units.</attrdef>
         <attrdefs>U.S. Geological Survey</attrdefs>
         <attrdomv>
-          <rdom>
-            <rdommin>0.000</rdommin>
-            <rdommax>0.000</rdommax>
-          </rdom>
+          <udom>real number</udom>
         </attrdomv>
       </attr>
       <attr>
@@ -212,7 +226,8 @@
         <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
         <attrdomv>
           <codesetd>
-            <codesetn>Mineral Commodity Summary, 1998 or &lt;http://minerals.er.usgs.gov/minerals/pubs/mcs/&gt;.</codesetn>
+            <codesetn>Mineral Commodity Summary, 1998 or
+              &lt;http://minerals.er.usgs.gov/minerals/pubs/mcs/&gt;.</codesetn>
             <codesets>U.S. Geological Survey, Minerals Information Team</codesets>
           </codesetd>
         </attrdomv>
@@ -239,8 +254,10 @@
         <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
         <attrdomv>
           <codesetd>
-            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2, 1987.</codesetn>
-            <codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the
+              Outlying Areas of the United States, and Associated Areas, FIPS 5-2, 1987.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
           </codesetd>
         </attrdomv>
       </attr>
@@ -250,8 +267,10 @@
         <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
         <attrdomv>
           <codesetd>
-            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS 6-4, 1990.</codesetn>
-            <codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and
+              Associated Areas, FIPS 6-4, 1990.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
           </codesetd>
         </attrdomv>
       </attr>
@@ -269,7 +288,8 @@
       </attr>
       <attr>
         <attrlabl>Longitude</attrlabl>
-        <attrdef>Angular distance between the plane of a meridian east or west from the plane of the meridian of Greenwich.</attrdef>
+        <attrdef>Angular distance between the plane of a meridian east or west from the plane of the
+          meridian of Greenwich.</attrdef>
         <attrdefs>Department of Commerce, 1992, Spatial Data Transfer Standard.</attrdefs>
         <attrdomv>
           <rdom>
@@ -289,8 +309,6 @@
             <edomvd>The facility is a plant.</edomvd>
             <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
           </edom>
-        </attrdomv>
-        <attrdomv>
           <edom>
             <edomv>M/P</edomv>
             <edomvd>The facility is both a mine and a plant.</edomvd>
@@ -339,7 +357,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/29/cugir-007329.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/29/cugir-007329.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -353,7 +371,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/29/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/29/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -367,7 +385,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/73/29/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/29/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -417,7 +435,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20171013</metd>
+      <metd>20190524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
 <metadata>
   <idinfo>
@@ -89,7 +88,7 @@
       </cntinfo>
     </ptcontac>
     <browse>
-              <browsen>https://s3.amazonaws.com/cugir-data/00/90/16/preview.png</browsen>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/90/16/preview.png</browsen>
               <browsed>preview of the dataset</browsed>
               <browset>PNG</browset>
             </browse>
@@ -354,13 +353,13 @@
               <formname>GeoTIFF</formname>
               <formcont>zipped geotiff</formcont>
               <filedec>zip</filedec>
-              <transize>58.38</transize>
+              <transize>58.53</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/16/cugir-009016.zip</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/16/cugir-009016.zip</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -374,7 +373,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/16/fgdc.xml</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/16/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -388,7 +387,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://s3.amazonaws.com/cugir-data/00/90/16/fgdc.html</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/16/fgdc.html</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -402,7 +401,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009016&amp;bbox=-76.3940887,42.3338799,-75.7394433,42.8622581&amp;width=256&amp;height=206&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009016&amp;bbox=-76.39408870000001,42.3338799,-75.73944329999999,42.8622581&amp;width=256&amp;height=206&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -410,7 +409,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20181212</metd>
+      <metd>20190604</metd>
       <metc>
         <cntinfo>
           <cntorgp>
