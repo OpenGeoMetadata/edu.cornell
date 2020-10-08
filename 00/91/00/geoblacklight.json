@@ -1,0 +1,41 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-009100",
+    "dc_title_s": "Campus Tree Inventory, Cornell University, 2019",
+    "dc_description_s": "This point dataset represents trees on the Cornell University main campus in Ithaca, New York as of 2019. This dataset is a partial update of the 2016 Campus Tree Inventory. West campus, central campus, and parts of north campus were reinventoried in 2019-2020. Existing trees were remeasured (see the DBH_2019 and Spread2020 fields) and, in some cases, more precisely located. New trees were added and others were removed.  The dataset provides an inventory of trees in the non-natural areas of the main Cornell Campus. This inventory can be used to support studies of species diversity, tree size and health, risks of invasive pests, and carbon sequestration.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/91/00/cugir-009100.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/91/00/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/91/00/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://cugir.library.cornell.edu/geoserver/cugir/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir009100",
+    "layer_slug_s": "cugir-009100",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "Shapefile",
+    "cugir_filesize_s": "0.42 MB",
+    "layer_geom_type_s": "Point",
+    "layer_modified_dt": "2020-09-14T00:00:00Z",
+    "dc_creator_sm": [
+        "Cornell University Campus Planning Office"
+    ],
+    "dc_subject_sm": [
+        "trees",
+        "tree inventory",
+        "urban forestry"
+    ],
+    "cugir_category_sm": [
+        "biology"
+    ],
+    "dct_spatial_sm": [
+        "Cornell University",
+        "Ithaca NY"
+    ],
+    "dct_issued_s": "2019",
+    "dct_temporal_sm": [
+        "2019"
+    ],
+    "dc_source_sm": [
+        "cugir-009094"
+    ],
+    "solr_geom": "ENVELOPE(-76.493023, -76.453353, 42.459885, 42.431365)",
+    "solr_year_i": "2019"
+}
