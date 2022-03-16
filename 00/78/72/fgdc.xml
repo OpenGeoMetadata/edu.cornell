@@ -35,9 +35,9 @@
     <spdom>
       <bounding>
         <westbc>-74.043644</westbc>
-        <eastbc>-73.685220</eastbc>
+        <eastbc>-73.684859</eastbc>
         <northbc>42.755276</northbc>
-        <southbc>42.585709</southbc>
+        <southbc>40.872863</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -431,7 +431,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190715</metd>
+      <metd>20210913</metd>
       <metc>
         <cntinfo>
           <cntorgp>

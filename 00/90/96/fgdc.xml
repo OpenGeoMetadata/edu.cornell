@@ -4,7 +4,7 @@
     <citation>
       <citeinfo>
         <origin>U.S. Geological Survey</origin>
-        <pubdate>20200106</pubdate>
+        <pubdate>20211210</pubdate>
         <title>Index of National Elevation Dataset (NED 1 arcsec), North America</title>
         <geoform>raster digital data</geoform>
         <onlink>https://cugir.library.cornell.edu/catalog/cugir-009096</onlink>
@@ -14,15 +14,14 @@
       <abstract>This is an index of all the National Elevation Dataset (NED) data tiles available at
         1 arc-second resolution (approximately 30m pixels). All elevation values are in meters
         and, over the continental United States, are referenced to the North American Vertical Datum
-        of 1988 (NAVD 88). The vertical reference will vary in other areas. Download and metadata
-        links are provided for each tile, and are current as of 2020-01-06. To check for updates,
-        see https://viewer.nationalmap.gov/basic/ </abstract>
+        of 1988 (NAVD 88). The vertical reference will vary in other areas. Download links are
+        provided for each 1x1-degree tile.</abstract>
       <purpose/>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20200106</caldate>
+          <caldate>20211210</caldate>
         </sngdate>
       </timeinfo>
       <current>publication date</current>
@@ -33,10 +32,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-171.0016667</westbc>
-            <eastbc>-51.9983333</eastbc>
-            <northbc>74.0016667</northbc>
-            <southbc>-15.0016667</southbc>
+            <westbc>-180</westbc>
+            <eastbc>180</eastbc>
+            <northbc>84</northbc>
+            <southbc>-15</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -84,18 +83,27 @@
         <hours>M-F 9:00 a.m. to 4:30 p.m.</hours>
       </cntinfo>
     </ptcontac>
+    <browse>
+              <browsen>https://cugir-data-dev.s3.amazonaws.com/00/90/96/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
   </idinfo>
   <dataqual>
     <attracc>
-      <attraccr>Attributes derived from The National Map, 2020-01-06.</attraccr>
+      <attraccr>Attributes derived from The National Map.</attraccr>
     </attracc>
     <logic> </logic>
-    <complete>Includes all NED 1 arc-second data tiles available as of 2020-01-06.</complete>
+    <complete>Includes all NED 1 arc-second data tiles available as of 2021-10-06.</complete>
     <lineage>
       <procstep>
-        <procdesc>CUGIR staff created index map from list of IMG files available in the "Elevation
-          Products (3DEP)" category, "1 arc-second DEM", at https://viewer.nationalmap.gov/basic/ </procdesc>
-        <procdate>2020-01-09</procdate>
+        <procdesc>CUGIR staff created index map from list of GeoTIFF files available in the "Elevation
+          Products (3DEP)" category, "1 arc-second DEM", at https://apps.nationalmap.gov/downloader/ </procdesc>
+        <procdate>2021-10-06</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff updated links to point hopefully stable links within the https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/ directory</procdesc>
+        <procdate>2021-12-10</procdate>
       </procstep>
     </lineage>
   </dataqual>
@@ -113,16 +121,16 @@
         <geogunit>Decimal Degrees</geogunit>
       </geograph>
       <geodetic>
-        <horizdn>D North American 1983</horizdn>
-        <ellips>GRS 1980</ellips>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
         <semiaxis>6378137.0</semiaxis>
-        <denflat>298.257222101</denflat>
+        <denflat>298.257224</denflat>
       </geodetic>
     </horizsys>
     <vertdef>
       <altsys>
         <altdatum>North American Vertical Datum of 1988</altdatum>
-        <altres>1.0</altres>
+        <altres>0.1</altres>
         <altunits>meters</altunits>
         <altenc>implicit coordinate</altenc>
       </altsys>
@@ -160,13 +168,13 @@
             <digtinfo>
               <formname>GeoJSON</formname>
               <formcont>OpenIndexMaps</formcont>
-              <transize>0.18</transize>
+              <transize>0.13</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/96/cugir-009096-index.geojson</networkr>
+                    <networkr>https://cugir-data-dev.s3.amazonaws.com/00/90/96/cugir-009096-index.geojson</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -180,7 +188,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/96/fgdc.xml</networkr>
+                    <networkr>https://cugir-data-dev.s3.amazonaws.com/00/90/96/fgdc.xml</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -194,7 +202,21 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/96/fgdc.html</networkr>
+                    <networkr>https://cugir-data-dev.s3.amazonaws.com/00/90/96/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir009096&amp;bbox=-190.8,-17.97,190.8,86.97&amp;width=256&amp;height=70&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -202,7 +224,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20200109</metd>
+      <metd>20211213</metd>
       <metc>
         <cntinfo>
           <cntorgp>

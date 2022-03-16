@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County ITS GIS Division, Tompkins County Assessment Department</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <origin>Tompkins County Assessment Department</origin>
         <pubdate>20000701</pubdate>
         <title>Tax Maps, Tompkins County NY, 2000</title>
         <geoform>vector digital data</geoform>
@@ -252,7 +253,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

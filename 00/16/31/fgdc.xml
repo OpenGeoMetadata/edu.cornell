@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County Planning Department, Tompkins County ITS GIS Division</origin>
+        <origin>Tompkins County Planning Department</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>1965</pubdate>
         <title>Soil Associations, Tompkins County NY, 1965</title>
         <geoform>vector digital data</geoform>
@@ -34,7 +35,7 @@
     <spdom>
           <bounding>
             <westbc>-76.696267</westbc>
-            <eastbc>-76.237651</eastbc>
+            <eastbc>-76.23765</eastbc>
             <northbc>42.627521</northbc>
             <southbc>42.262465</southbc>
           </bounding>
@@ -166,7 +167,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>1189</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -655,7 +656,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.48</transize>
+              <transize>0.39</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -731,7 +732,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir001631&amp;bbox=-76.71002548000001,42.25151332,-76.22389251999999,42.63847268&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir001631&amp;bbox=-76.71002551000001,42.25151332,-76.22389149,42.63847268&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -739,7 +740,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

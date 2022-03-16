@@ -145,7 +145,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>108234</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -326,7 +326,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210730</metd>
       <metc>
         <cntinfo>
           <cntorgp>

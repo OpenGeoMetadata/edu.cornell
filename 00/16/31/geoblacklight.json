@@ -11,11 +11,12 @@
     "layer_slug_s": "cugir-001631",
     "dc_type_s": "Dataset",
     "dc_format_s": "Shapefile",
-    "cugir_filesize_s": "0.48 MB",
+    "cugir_filesize_s": "0.39 MB",
     "layer_geom_type_s": "Polygon",
-    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "layer_modified_dt": "2021-07-12T00:00:00Z",
     "dc_creator_sm": [
-        "Tompkins County Planning Department, Tompkins County ITS GIS Division"
+        "Tompkins County Planning Department",
+        "Tompkins County ITS GIS Division"
     ],
     "dc_publisher_sm": [
         "Tompkins County GIS Program"
@@ -35,6 +36,6 @@
     "dct_temporal_sm": [
         "1965"
     ],
-    "solr_geom": "ENVELOPE(-76.696267, -76.237651, 42.627521, 42.262465)",
+    "solr_geom": "ENVELOPE(-76.696267, -76.23765, 42.627521, 42.262465)",
     "solr_year_i": "1965"
 }

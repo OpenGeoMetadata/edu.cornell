@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County GIS Division, Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>2005</pubdate>
         <title>Road Centerlines, Tompkins County NY, 2005</title>
         <geoform>vector digital data</geoform>
@@ -219,7 +220,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>String</sdtstype>
+            <sdtstype>LineString</sdtstype>
             <ptvctcnt>6552</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -1161,7 +1162,7 @@
     </availabl>
   </distinfo>
   <metainfo>
-      <metd>20190618</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

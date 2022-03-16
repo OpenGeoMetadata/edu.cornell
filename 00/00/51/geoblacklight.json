@@ -13,9 +13,10 @@
     "dc_format_s": "Shapefile",
     "cugir_filesize_s": "0.19 MB",
     "layer_geom_type_s": "Polygon",
-    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "layer_modified_dt": "2021-11-12T00:00:00Z",
     "dc_creator_sm": [
-        "Tompkins County ITS GIS Division, Tompkins County Assessment Department"
+        "Tompkins County ITS GIS Division",
+        "Tompkins County Assessment Department"
     ],
     "dc_publisher_sm": [
         "Tompkins County GIS Program"

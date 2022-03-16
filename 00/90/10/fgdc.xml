@@ -5,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20190412</pubdate>
-        <title>Agricultural Districts, New York State, 2019</title>
+        <pubdate>20210430</pubdate>
+        <title>Agricultural Districts, New York State, 2021</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -16,18 +16,17 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This statewide shapefile represents geographic boundaries for lands that are under
-        the protection of NYS Agricultural District Law, administered by the New York State
-        Department of Agriculture and Markets. The boundaries are derived from New York State
-        Agricultural District, 1:24,000-scale, maps produced at county agencies. The district
-        boundaries correspond to tax parcel data. District boundaries are joined into a file
-        representing all of the Agricultural Districts within an entire county. Note that 2003
-        legislation allows lands to be added to districts on an annual basis. Electronic data
-        provided here may predate those additions. When annual additions are included, an additional
-        field (OEadds303b) is annexed to the attribute table; the dates of the annual additions
-        listed in that field. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps.</abstract>
+      <abstract>These GIS files represent geographic boundaries for lands that are under the
+        protection of NYS Agricultural District Law, administered by the New York State Department
+        of Agriculture and Markets. The boundaries are derived from New York State Agricultural
+        District, 1:24,000-scale, maps produced at county agencies. The district boundaries
+        correspond to tax parcel data. District boundaries are joined into a file representing all
+        of the Agricultural Districts within an entire county. Note that 2003 legislation allows
+        lands to be added to districts on an annual basis. Electronic data provided here may predate
+        those additions. Tax parcel detail is not included in this dataset. Rights-of-way for state 
+        and federal highways, and secondary roads, railroads and utilities are only included when 
+        they are delineated on the original 1:24,000 scale maps. The data files are in ArcGIS 
+        shapefile format.</abstract>
       <purpose>A Geographic Information System file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -42,12 +41,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html</supplinf>
+        &lt;https://www.agriculture.ny.gov&gt;</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20190412</caldate>
+          <caldate>20210430</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -120,7 +119,7 @@
       contract with the New York State Department of Agriculture and Markets. In 1996 the maps on
       file at Cornell IRIS (then CLEARS) were scanned at the NYSDEC as the initial step in creating
       a digital database of Ag District Boundaries.</datacred>
-    <native>ESRI ArcGIS Desktop 10.4.0.5524; Windows 7 Enterprise 64-bit</native>
+    <native>Microsoft Windows; ArcMap v. 10.x</native>
   </idinfo>
   <dataqual>
     <attracc>
@@ -137,9 +136,9 @@
       boundary data is proofread against the maps.</logic>
     <complete>County Agricultural District boundaries are complete to the extent that the original
       map is complete. Tax parcel detail is not included in this dataset. Rights-of-way for state
-      and federal highways, railroads and utilities are only included when they are delineated on
-      the original 1:24,000 scale maps. NOTE: The most current and precise boundary of a district
-      should be verified by referring to the tax parcel information available in the
+      and federal highways, local roads, railroads and utilities are only included when they are
+      delineated on the original 1:24,000 scale maps. NOTE: The most current and precise boundary
+      of a district should be verified by referring to the tax parcel information available in the
       county.</complete>
     <posacc>
       <horizpa>
@@ -177,8 +176,8 @@
               Cornell Institute for Resource Information Sciences (Cornell IRIS)
             </origin>
             <origin>NYS Department of Agriculture and Markets</origin>
-            <pubdate>2009-2019</pubdate>
-            <title>Agricultural Districts, NY county datasets, 2009-2019</title>
+            <pubdate>2009-2021</pubdate>
+            <title>Agricultural Districts, NY county datasets, 2009-2021</title>
             <geoform>vector digital data</geoform>
             <serinfo>
               <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -243,7 +242,7 @@
           <timeinfo>
             <rngdates>
               <begdate>2009</begdate>
-              <enddate>2019</enddate>
+              <enddate>2021</enddate>
             </rngdates>
           </timeinfo>
           <srccurr>publication date</srccurr>
@@ -327,7 +326,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20170401 through 20180331</procdate>
+        <procdate>20190401 through 20200331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -350,7 +349,28 @@
         <procdesc>4) MERGING COUNTY FILES INTO STATEWIDE BOUNDARIES County agricultural district
           boundary files, as published annually, are merged into a state-wide file. Further clean-up
           of data to remove slivers and extraneous line features.</procdesc>
-        <procdate>20190408 through 20190412</procdate>
+        <procdate>20210429</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Cornell IRIS</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>1015 Bradfield Hall</address>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853-1901</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>607-255-6520 or 607-255-6529</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>4) DISSOLVE all features by attributes to create one record per county-ag district</procdesc>
+        <procdate>20210430</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -376,7 +396,7 @@
         <ptvctinf>
           <sdtsterm>
             <sdtstype>Polygon</sdtstype>
-            <ptvctcnt>36926</ptvctcnt>
+            <ptvctcnt>165</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -472,15 +492,6 @@
             attached</udom>
         </attrdomv>
       </attr>
-      <attr>
-        <attrlabl>OEadds303b</attrlabl>
-        <attrdef>list of certification dates of Open Enrollment / Annual Inclusion additions
-          included in the shapefile</attrdef>
-        <attrdefs>Cornell IRIS</attrdefs>
-        <attrdomv>
-          <udom>list of dates in text format</udom>
-        </attrdomv>
-      </attr>
     </detailed>
   </eainfo>
   <distinfo>
@@ -516,7 +527,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>21.23</transize>
+              <transize>20.97</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -633,7 +644,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190621</metd>
+      <metd>20210616</metd>
       <metc>
         <cntinfo>
           <cntorgp>

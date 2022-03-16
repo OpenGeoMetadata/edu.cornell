@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS Division</origin>
+        <origin>Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>200212</pubdate>
         <title>Bikeways, Tompkins County NY, 1998</title>
         <geoform>vector digital data</geoform>
@@ -117,7 +118,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>String</sdtstype>
+            <sdtstype>LineString</sdtstype>
             <ptvctcnt>1510</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -188,7 +189,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.24</transize>
+              <transize>0.20</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -296,7 +297,7 @@
     <distliab>Tompkins County does not warrant the accuracy or completeness of the information portrayed in this data. The end user of the data and products derived from it agrees to accept the data "as is", with the full knowledge that errors and omissions may exist. The end user further agrees to hold harmless Tompkins County for any liability or damages that may result from an improper or inappropriate use of the data.</distliab>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

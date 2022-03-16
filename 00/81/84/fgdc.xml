@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>U.S. Department of Commerce U.S. Census Bureau Geography Division</origin>
+        <origin>U.S. Census Bureau</origin>
         <pubdate>2001</pubdate>
         <title>Counties with Demographics, New York, 2000</title>
         <geoform>vector digital data</geoform>
@@ -89,7 +89,7 @@
       <srcinfo>
         <srccite>
           <citeinfo>
-            <origin>U.S. Department of Commerce U.S. Census Bureau Geography Division</origin>
+            <origin>U.S. Census Bureau</origin>
             <pubdate>Unpublished material</pubdate>
             <title>Census TIGER data base</title>
             <edition>Census 2000</edition>
@@ -123,7 +123,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>62</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -182,7 +182,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.58</transize>
+              <transize>0.53</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -266,7 +266,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210715</metd>
       <metc>
         <cntinfo>
           <cntorgp>

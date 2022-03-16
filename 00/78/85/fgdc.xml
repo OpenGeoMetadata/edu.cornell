@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Lamont-Doherty Earth Observatory (LDEO)</origin>
+        <origin>Lamont-Doherty Earth Observatory, Columbia University</origin>
         <pubdate>2005</pubdate>
         <title>Sedimentary Environment, Hudson River estuary, 2004</title>
         <geoform>vector digital data</geoform>
@@ -179,7 +179,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>15</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -382,7 +382,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>1.43</transize>
+              <transize>1.39</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -466,7 +466,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

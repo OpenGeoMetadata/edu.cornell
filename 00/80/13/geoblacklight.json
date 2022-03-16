@@ -11,15 +11,15 @@
     "layer_slug_s": "cugir-008013",
     "dc_type_s": "Dataset",
     "dc_format_s": "Shapefile",
-    "cugir_filesize_s": "0.09 MB",
+    "cugir_filesize_s": "0.05 MB",
     "layer_geom_type_s": "Polygon",
-    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "layer_modified_dt": "2021-09-13T00:00:00Z",
     "dc_creator_sm": [
         "Cayuga Lake Watershed Network",
         "Nicholas Hollingshead, GIS Analyst"
     ],
     "dc_subject_sm": [
-        "Sewer Sysetms",
+        "Sewer Systems",
         "Sewage"
     ],
     "cugir_category_sm": [

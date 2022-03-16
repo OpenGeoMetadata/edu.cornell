@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Lamont-Doherty Earth Observatory (LDEO)</origin>
+        <origin>Lamont-Doherty Earth Observatory, Columbia University</origin>
         <pubdate>2005</pubdate>
         <title>Sediment Type, Hudson River estuary, 2004</title>
         <geoform>vector digital data</geoform>
@@ -171,7 +171,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>303</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -337,7 +337,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.44</transize>
+              <transize>0.42</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -421,7 +421,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

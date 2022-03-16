@@ -5,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20160228</pubdate>
-        <title>Agricultural Districts, Saratoga County NY, 2016</title>
+        <pubdate>20210430</pubdate>
+        <title>Agricultural Districts, Saratoga County NY, 2021</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -23,10 +23,8 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps. The data files are in
-        ArcGIS shapefile format.</abstract>
+        those additions. Tax parcel detail is not included in this dataset. Rights-of-way for state 
+        and federal highways, and secondary roads, railroads and utilities are only included when they            are delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile         format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -35,18 +33,18 @@
         open enrollment changes at the eight-year renewal of the district. The electronic data only
         reflects changes to the 1:24,000-scale maps. The Agricultural District boundaries are for
         use in conjunction with NYS geographical data (ex. NYS Department of Transportation (DOT)
-        7.5' planimetric data). Boundary data is current to certification date of the district map
+        7.5' planimetric data).  Boundary data is current to certification date of the district map
         on file at IRIS at the time the digital data was updated. The certification date is noted in
         the attribute table field called "Certified". Legislation in 2003 allows lands to be added
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        &lt;https://www.agriculture.ny.gov&gt;</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20160228</caldate>
+          <caldate>20210430</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -57,9 +55,9 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-74.102027</westbc>
-            <eastbc>-73.575445</eastbc>
-            <northbc>43.283004</northbc>
+            <westbc>-74.102023</westbc>
+            <eastbc>-73.577712</eastbc>
+            <northbc>43.293902</northbc>
             <southbc>42.787324</southbc>
           </bounding>
         </spdom>
@@ -124,7 +122,7 @@
       contract with the New York State Department of Agriculture and Markets. In 1996 the maps on
       file at Cornell IRIS (then CLEARS) were scanned at the NYSDEC as the initial step in creating
       a digital database of Ag District Boundaries.</datacred>
-    <native>Microsoft Windows 7 Enterprise Version 6.1 (Build 7601) ; ESRI ArcCatalog 10.1</native>
+    <native>Microsoft Windows; ArcMap v. 10.x</native>
   </idinfo>
   <dataqual>
     <attracc>
@@ -141,11 +139,11 @@
       boundary shapefile data is printed out using DOT planimetric raster data as a base, then
       proofread against the maps.</logic>
     <complete>County Agricultural District boundaries are complete to the extent that the original
-      map is complete. Tax parcel detail and secondary rights-of-way are not included in this
-      dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-      included when they are delineated on the original 1:24,000 scale maps. NOTE: The most current
-      and precise boundary of a district should be verified by referring to the tax parcel
-      information.</complete>
+      map is complete. Tax parcel detail is not included in this dataset. Rights-of-way for state
+      and federal highways, local roads, railroads and utilities are only included when they are
+      delineated on the original 1:24,000 scale maps. NOTE: The most current and precise boundary
+      of a district should be verified by referring to the tax parcel information available in the
+      county.</complete>
     <posacc>
       <horizpa>
         <horizpar>Shapefiles are accurate to the quality of the original 1:24000 scale
@@ -167,7 +165,7 @@
           <timeinfo>
             <mdattim>
               <sngdate>
-                <caldate>20050824 (district #1)</caldate>
+                <caldate>20210104 (district #1)</caldate>
               </sngdate>
               <sngdate>
                 <caldate>20150506 (district #2)</caldate>
@@ -255,7 +253,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20150131 through 20180531</procdate>
+        <procdate>20200401 through 20210331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -280,8 +278,8 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>78</ptvctcnt>
+            <sdtstype>Polygon</sdtstype>
+            <ptvctcnt>433</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -412,7 +410,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>2.87</transize>
+              <transize>3.15</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -474,7 +472,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/84/agSARA2016.kmz</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/84/agSARA2021.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -502,7 +500,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007984&amp;bbox=-74.11782446000001,42.7724536,-73.55964754,43.2978744&amp;width=256&amp;height=240&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007984&amp;bbox=-74.11775233,42.77212666,-73.56198267,43.30909934&amp;width=256&amp;height=247&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -543,7 +541,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210616</metd>
       <metc>
         <cntinfo>
           <cntorgp>

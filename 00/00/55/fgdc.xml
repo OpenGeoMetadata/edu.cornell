@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS Division</origin>
+        <origin>Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>1998</pubdate>
         <title>Bridges, Tompkins County NY, 1998</title>
         <geoform>vector digital data</geoform>
@@ -297,7 +298,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.07</transize>
+              <transize>0.02</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -405,7 +406,7 @@
     <distliab>Tompkins County does not warrant the accuracy or completeness of the information portrayed in this data. The end user of the data and products derived from it agrees to accept the data "as is", with the full knowledge that errors and omissions may exist. The end user further agrees to hold harmless Tompkins County for any liability or damages that may result from an improper or inappropriate use of the data. Cornell University provides these geographic data "as is." Cornell makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Cornell further makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers at Cornell University, no warranty is made by Cornell regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.</distliab>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

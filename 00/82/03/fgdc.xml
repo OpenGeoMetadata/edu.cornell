@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>U.S. Department of Commerce U.S. Census Bureau Geography Division</origin>
+        <origin>U.S. Census Bureau</origin>
         <pubdate>2001</pubdate>
         <title>Census Urbanized Areas, New York, 1990</title>
         <geoform>vector digital data</geoform>
@@ -130,7 +130,7 @@
       <srcinfo>
         <srccite>
           <citeinfo>
-            <origin>U.S. Department of Commerce U.S. Census Bureau Geography Division</origin>
+            <origin>U.S. Census Bureau</origin>
             <pubdate>Unpublished material</pubdate>
             <title>Census TIGER data base</title>
             <edition>Census 1990</edition>
@@ -187,7 +187,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>33</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -266,7 +266,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.30</transize>
+              <transize>0.27</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -350,7 +350,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210715</metd>
       <metc>
         <cntinfo>
           <cntorgp>

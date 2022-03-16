@@ -5,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20160228</pubdate>
-        <title>Agricultural Districts, Herkimer County NY, 2016</title>
+        <pubdate>20200331</pubdate>
+        <title>Agricultural Districts, Herkimer County NY, 2020</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -25,8 +25,8 @@
         lands to be added to districts on an annual basis. Electronic data provided here may predate
         those additions. When annual additions are included, an additional field (OEadds303b) is
         added to the attribute table; the dates of the annual additions listed in that field. Tax
-        parcel detail and secondary rights-of-way are not included in this dataset. Rights-of-way
-        for state and federal highways, railroads and utilities are only included when they are
+        parcel detail is not included in this dataset. Road and utility rights-of-way
+ are only included when they are
         delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile
         format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
@@ -43,12 +43,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        &lt;https://www.agriculture.ny.gov&gt;</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20160228</caldate>
+          <caldate>20200331</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -60,8 +60,8 @@
     <spdom>
           <bounding>
             <westbc>-75.217205</westbc>
-            <eastbc>-74.7514</eastbc>
-            <northbc>43.386089</northbc>
+            <eastbc>-74.748917</eastbc>
+            <northbc>43.380413</northbc>
             <southbc>42.82488</southbc>
           </bounding>
         </spdom>
@@ -126,7 +126,7 @@
       contract with the New York State Department of Agriculture and Markets. In 1996 the maps on
       file at Cornell IRIS (then CLEARS) were scanned at the NYSDEC as the initial step in creating
       a digital database of Ag District Boundaries.</datacred>
-    <native>Microsoft Windows 7 Enterprise Version 6.1 (Build 7601) ; ESRI ArcCatalog 10.1</native>
+    <native>Microsoft Windows 7 Enterprise Version 6.1 (Build 7601) Service Pack 1 ESRI ArcGIS Desktop 10.4 Version 10.4.0.5524</native>
   </idinfo>
   <dataqual>
     <attracc>
@@ -164,12 +164,12 @@
           </citeinfo>
         </srccite>
         <srcscale>24000</srcscale>
-        <typesrc>Hard copy on Mylar, vellum or paper; digital on CD-ROM.</typesrc>
+        <typesrc>PDF or paper map</typesrc>
         <srctime>
           <timeinfo>
             <mdattim>
               <sngdate>
-                <caldate>20131206 (district #1)</caldate>
+                <caldate>20190607 (consolidated district #1)</caldate>
               </sngdate>
               <sngdate>
                 <caldate>20110628 (district #2)</caldate>
@@ -266,7 +266,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20150131 through 20180531</procdate>
+        <procdate>20190401 through 20200331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -291,8 +291,8 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>491</ptvctcnt>
+            <sdtstype>Polygon</sdtstype>
+            <ptvctcnt>499</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -432,7 +432,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>5.62</transize>
+              <transize>3.37</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -494,7 +494,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/67/agHERK2016.kmz</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/67/agHERK.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -522,7 +522,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007967&amp;bbox=-75.23117915,42.80804373,-74.73742585000001,43.40292527&amp;width=212&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007967&amp;bbox=-75.23125364,42.80821401,-74.73486836000001,43.39707899&amp;width=215&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -563,7 +563,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210615</metd>
       <metc>
         <cntinfo>
           <cntorgp>

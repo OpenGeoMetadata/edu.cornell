@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County ITS: GIS Division</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <origin>Tompkins County Board of Elections</origin>
         <pubdate>20061103</pubdate>
         <title>Polling Places, Tompkins County, NY, 2006</title>
@@ -218,7 +218,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.05</transize>
+              <transize>0.02</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -302,7 +302,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

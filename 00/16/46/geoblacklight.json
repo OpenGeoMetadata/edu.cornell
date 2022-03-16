@@ -11,11 +11,12 @@
     "layer_slug_s": "cugir-001646",
     "dc_type_s": "Dataset",
     "dc_format_s": "Shapefile",
-    "cugir_filesize_s": "0.05 MB",
+    "cugir_filesize_s": "0.01 MB",
     "layer_geom_type_s": "Polygon",
-    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "layer_modified_dt": "2021-07-12T00:00:00Z",
     "dc_creator_sm": [
-        "Tompkins County Planning Department, Town of Ithaca"
+        "Tompkins County Planning Department",
+        "Town of Ithaca"
     ],
     "dc_subject_sm": [
         "Conservation",

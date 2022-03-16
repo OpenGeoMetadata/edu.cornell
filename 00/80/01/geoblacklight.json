@@ -5,7 +5,7 @@
     "dc_description_s": "The National Land Cover Database (NLCD) 1992 Land Cover layer was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. The MRLC Consortium is a partnership of federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture - Forest Service (USDA-FS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS). One of the primary goals of the project is to generate a current, consistent, seamless, and accurate land cover data for the United States at medium spatial resolution. Questions about the NLCD can be directed to the NLCD land cover mapping team at USGS EROS, Sioux Falls, SD (605)594-6151 or mrlc@usgs.gov.  The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.",
     "dc_rights_s": "Public",
     "dct_provenance_s": "Cornell",
-    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/80/01/cugir-008001.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/80/01/cugir-008001.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://setup.cugir.library.cornell.edu/geoserver/cugir/wms\"}",
     "cugir_addl_downloads_s": "{}",
     "layer_id_s": "cugir008001",
     "layer_slug_s": "cugir-008001",
@@ -39,5 +39,5 @@
         "National Land Cover Database"
     ],
     "solr_geom": "ENVELOPE(-80.035679, -70.516586, 45.847801, 40.086478)",
-    "solr_year_i": "1992"
+    "solr_year_i": 1992
 }

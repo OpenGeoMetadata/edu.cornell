@@ -3,8 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS
-          Division</origin>
+        <origin>Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>2005</pubdate>
         <title>Municipal Boundaries, Tompkins County NY, 2005</title>
         <geoform>vector digital data</geoform>
@@ -106,7 +106,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>16</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -351,7 +351,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.07</transize>
+              <transize>0.03</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -466,7 +466,7 @@
       warranty.</distliab>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

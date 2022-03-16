@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County Planning Department, Town of Ithaca</origin>
+        <origin>Tompkins County Planning Department</origin>
+        <origin>Town of Ithaca</origin>
         <pubdate>2000</pubdate>
         <title>Critical Environmental Areas, Tompkins County NY, 2000</title>
         <geoform>vector digital data</geoform>
@@ -126,7 +127,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>1</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -212,7 +213,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.05</transize>
+              <transize>0.01</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -296,7 +297,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>U.S. Geological Survey, Florida Caribbean Science Center</origin>
+        <origin>U.S. Geological Survey</origin>
+        <origin>Florida Caribbean Science Center</origin>
         <pubdate>200112</pubdate>
         <title>Zebra Mussels, New York State, 2001</title>
         <geoform>vector digital data</geoform>
@@ -34,10 +35,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-80.134689</westbc>
-            <eastbc>-73.073769</eastbc>
-            <northbc>45.424168</northbc>
-            <southbc>41.282917</southbc>
+            <westbc>-80.134469</westbc>
+            <eastbc>-73.073327</eastbc>
+            <northbc>45.424201</northbc>
+            <southbc>41.283011</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -486,7 +487,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.10</transize>
+              <transize>0.05</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -562,7 +563,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007326&amp;bbox=-80.3465166,41.158679469999996,-72.86194139999999,45.548405530000004&amp;width=256&amp;height=150&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007326&amp;bbox=-80.34630326,41.1587753,-72.86149274,45.548436699999996&amp;width=256&amp;height=150&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -570,7 +571,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

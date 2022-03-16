@@ -5,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20140228</pubdate>
-        <title>Agricultural Districts, Franklin County NY, 2014</title>
+        <pubdate>20210430</pubdate>
+        <title>Agricultural Districts, Franklin County NY, 2021</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -23,10 +23,10 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-        included when they are delineated on the original 1:24,000 scale maps. The data files are in
-        ArcGIS shapefile format.</abstract>
+        those additions. Tax parcel detail is not included in this dataset. Rights-of-way for state 
+        and federal highways, and secondary roads, railroads and utilities are only included when they
+        are delineated on the original 1:24,000 scale maps. The data files are in ArcGIS shapefile
+        format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
         agricultural district. Please note that boundaries may be generalizations; precise
         information can be obtained from the county or town tax parcel information.</purpose>
@@ -41,12 +41,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        &lt;https://www.agriculture.ny.gov&gt;</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20140228</caldate>
+          <caldate>20210430</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -57,10 +57,10 @@
     </status>
     <spdom>
           <bounding>
-            <westbc>-74.638448</westbc>
-            <eastbc>-74.00594</eastbc>
-            <northbc>44.999035</northbc>
-            <southbc>44.377479</southbc>
+            <westbc>-74.6418</westbc>
+            <eastbc>-74.005964</eastbc>
+            <northbc>44.998977</northbc>
+            <southbc>44.350788</southbc>
           </bounding>
         </spdom>
     <keywords>
@@ -121,7 +121,7 @@
       contract with the New York State Department of Agriculture and Markets. In 1996 the maps on
       file at Cornell IRIS (then CLEARS) were scanned at the NYSDEC as the initial step in creating
       a digital database of Ag District Boundaries.</datacred>
-    <native>Microsoft Windows 7 Enterprise v. 6.1 service pack 1; ArcMap v. 10.1.2</native>
+    <native>Microsoft Windows; ArcMap v. 10.x</native>
   </idinfo>
   <dataqual>
     <attracc>
@@ -138,11 +138,11 @@
       boundary shapefile data is printed out using DOT planimetric raster data as a base, then
       proofread against the maps.</logic>
     <complete>County Agricultural District boundaries are complete to the extent that the original
-      map is complete. Tax parcel detail and secondary rights-of-way are not included in this
-      dataset. Rights-of-way for state and federal highways, railroads and utilities are only
-      included when they are delineated on the original 1:24,000 scale maps. NOTE: The most current
-      and precise boundary of a district should be verified by referring to the tax parcel
-      information.</complete>
+      map is complete. Tax parcel detail is not included in this dataset. Rights-of-way for state
+      and federal highways, local roads, railroads and utilities are only included when they are
+      delineated on the original 1:24,000 scale maps. NOTE: The most current and precise boundary
+      of a district should be verified by referring to the tax parcel information available in the
+      county.</complete>
     <posacc>
       <horizpa>
         <horizpar>Shapefiles are accurate to the quality of the original 1:24000 scale
@@ -153,7 +153,7 @@
       <srcinfo>
         <srccite>
           <citeinfo>
-            <origin>Franklin County Real Property Tax Service</origin>
+            <origin>Franklin County Soil and Water Conservation District</origin>
             <pubdate>unknown</pubdate>
             <title>none</title>
           </citeinfo>
@@ -163,7 +163,7 @@
         <srctime>
           <timeinfo>
             <sngdate>
-              <caldate>20130919 (District #1)</caldate>
+              <caldate>20201110 (District #1)</caldate>
             </sngdate>
           </timeinfo>
           <srccurr>certification date</srccurr>
@@ -247,7 +247,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20130131 through 20180531</procdate>
+        <procdate>20200401 through 20210331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -272,8 +272,8 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>264</ptvctcnt>
+            <sdtstype>Polygon</sdtstype>
+            <ptvctcnt>563</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -404,7 +404,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>3.82</transize>
+              <transize>3.92</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -466,7 +466,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/63/agFRAN2014.kmz</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/63/agFRAN2021.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -494,7 +494,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007963&amp;bbox=-74.65742324,44.35883232,-73.98696475999999,45.01768168&amp;width=256&amp;height=251&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007963&amp;bbox=-74.66087508,44.33134233,-73.98688892000001,45.01842267&amp;width=251&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -535,7 +535,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210616</metd>
       <metc>
         <cntinfo>
           <cntorgp>

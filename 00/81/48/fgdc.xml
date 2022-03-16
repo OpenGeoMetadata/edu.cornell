@@ -141,7 +141,7 @@
       </procstep>
       <procstep>
         <procdesc>CUGIR staff added z values from "Contour" field, making it easier to use the data in 3D programs.</procdesc>
-        <procdate>20190618</procdate>
+        <procdate>20200524</procdate>
       </procstep>
     </lineage>
   </dataqual>
@@ -256,7 +256,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>24.11</transize>
+              <transize>24.13</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -340,7 +340,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190618</metd>
+      <metd>20200524</metd>
       <metc>
         <cntinfo>
           <cntorgp>

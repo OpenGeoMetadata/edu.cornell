@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County ITS GIS Division, Tompkins County Assessment Department</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <origin>Tompkins County Assessment Department</origin>
         <pubdate>20020701</pubdate>
         <title>Tax Parcels, Tompkins County NY, 2002</title>
         <geoform>vector digital data</geoform>
@@ -162,7 +163,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>35648</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -338,7 +339,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>5.38</transize>
+              <transize>5.36</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -459,7 +460,7 @@
     </availabl>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

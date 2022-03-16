@@ -1,0 +1,55 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-009110",
+    "dc_title_s": "Cropland Data Layer, New York, 2020",
+    "dc_description_s": "The USDA, NASS Cropland Data Layer (CDL) is a raster, geo-referenced, crop-specific land cover data layer. The 2020 CDL has a ground resolution of 30 meters. The CDL is produced using satellite imagery from the Landsat 8 OLI/TIRS sensor, the Disaster Monitoring Constellation (DMC) DEIMOS-1, the ISRO ResourceSat-2 LISS-3, and the ESA SENTINEL-2 sensors collected during the current growing season. Some CDL states used additional satellite imagery and ancillary inputs to supplement and improve the classification. These additional sources can include the United States Geological Survey (USGS) National Elevation Dataset (NED) and the imperviousness and canopy data layers from the USGS National Land Cover Database 2016 (NLCD 2016). Agricultural training and validation data are derived from the Farm Service Agency (FSA) Common Land Unit (CLU) Program. The most current version of the NLCD is used as non-agricultural training and validation data. Please refer to the 'Supplemental_Information' Section of this metadata file for a complete list of all imagery, ancillary data, and training/validation data used to generate this state's CDL. The strength and emphasis of the CDL is agricultural land cover. Please note that no farmer reported data are derivable from the Cropland Data Layer.  The purpose of the Cropland Data Layer Program is to use satellite imagery to (1) provide planted acreage estimates to the Agricultural Statistics Board for the state's major commodities and (2) produce digital, crop-specific, categorized geo-referenced output products.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/91/10/cugir-009110.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/91/10/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/91/10/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://setup.cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir009110",
+    "layer_slug_s": "cugir-009110",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "GeoTIFF",
+    "cugir_filesize_s": "39.05 MB",
+    "layer_geom_type_s": "Raster",
+    "layer_modified_dt": "2021-07-20T00:00:00Z",
+    "dc_creator_sm": [
+        "United States Department of Agriculture (USDA)",
+        "National Agricultural Statistics Service (NASS)"
+    ],
+    "dc_publisher_sm": [
+        "USDA, NASS"
+    ],
+    "dc_subject_sm": [
+        "Earth Science > Biosphere > Terrestrial Ecosystems > Agricultural Lands",
+        "Earth Science > Land Surface > Land Use/Land Cover > Land Cover",
+        "crop cover",
+        "cropland",
+        "agriculture",
+        "land cover",
+        "crop estimates",
+        "DEIMOS-1",
+        "ISRO ResourceSat-2 LISS-3",
+        "ESA SENTINEL-2",
+        "Landsat",
+        "CropScape"
+    ],
+    "cugir_category_sm": [
+        "agriculture",
+        "environment",
+        "landcover"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "2021-02-01",
+    "dct_temporal_sm": [
+        "2020"
+    ],
+    "dct_isPartOf_sm": [
+        "USDA-NASS Cropland Data Layer"
+    ],
+    "solr_geom": "ENVELOPE(-79.974336, -70.596893, 45.838882, 40.116635)",
+    "solr_year_i": 2020
+}

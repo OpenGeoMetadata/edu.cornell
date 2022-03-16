@@ -5,8 +5,8 @@
       <citeinfo>
         <origin>Cornell Institute for Resource Information Sciences (Cornell IRIS)</origin>
         <origin>NYS Department of Agriculture and Markets</origin>
-        <pubdate>20180331</pubdate>
-        <title>Agricultural Districts, Allegany County NY, 2018</title>
+        <pubdate>20200331</pubdate>
+        <title>Agricultural Districts, Allegany County NY, 2020</title>
         <geoform>vector digital data</geoform>
         <serinfo>
           <sername>Agricultural Districts (NYS Ag and Markets)</sername>
@@ -23,8 +23,8 @@
         correspond to tax parcel data. District boundaries are joined into a file representing all
         of the Agricultural Districts within an entire county. Note that 2003 legislation allows
         lands to be added to districts on an annual basis. Electronic data provided here may predate
-        those additions. Tax parcel detail and secondary rights-of-way are not included in this
-        dataset. Rights-of-way for state and federal highways, railroads and utilities are only
+        those additions. Tax parcel detail is not included in this
+        dataset. Road and utility rights-of-way are only
         included when they are delineated on the original 1:24,000 scale maps. The data files are in
         ArcGIS shapefile format.</abstract>
       <purpose>A Geographic Information System (ArcGIS) file intended to represent the lands within
@@ -41,12 +41,12 @@
         to districts on an annual basis. Electronic data provided here may predate those additions.
         Refer to the current tax parcel list for each district to confirm the precise agricultural
         district boundary. For more information about NYS Agricultural Districts, see
-        &lt;https://www.agriculture.ny.gov/AP/agservices/agricultural-districts.html&gt;</supplinf>
+        &lt;https://www.agriculture.ny.gov&gt;</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20180331</caldate>
+          <caldate>20200331</caldate>
         </sngdate>
       </timeinfo>
       <current>Publication date</current>
@@ -174,7 +174,7 @@
                 <caldate>20140416 (district #2)</caldate>
               </sngdate>
               <sngdate>
-                <caldate>20111011 (district #3)</caldate>
+                <caldate>20191120 (district #3)</caldate>
               </sngdate>
               <sngdate>
                 <caldate>20170711 (district #4)</caldate>
@@ -262,7 +262,7 @@
           not represent intended exclusions. Discrepancies between the title block information and
           file information are clarified by contacting the county and/or New York State Department
           of Agriculture and Markets.</procdesc>
-        <procdate>20170401 through 20180531</procdate>
+        <procdate>20190401 through 20200331</procdate>
         <proccont>
           <cntinfo>
             <cntorgp>
@@ -287,8 +287,8 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
-            <ptvctcnt>747</ptvctcnt>
+            <sdtstype>Polygon</sdtstype>
+            <ptvctcnt>764</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
       </spdoinfo>
@@ -419,7 +419,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>3.27</transize>
+              <transize>3.63</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -481,7 +481,7 @@
               <onlinopt>
                 <computer>
                   <networka>
-                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/49/agALLE2018.kmz</networkr>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/49/agALLE.kmz</networkr>
                   </networka>
                 </computer>
               </onlinopt>
@@ -550,7 +550,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210615</metd>
       <metc>
         <cntinfo>
           <cntorgp>

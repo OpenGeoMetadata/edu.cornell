@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Tompkins County ITS: GIS Division</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <origin>Tompkins County Board of Elections</origin>
         <pubdate>2005</pubdate>
         <title>Election Districts, Tompkins County NY, 2005</title>
@@ -146,7 +146,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>73</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -411,7 +411,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.15</transize>
+              <transize>0.10</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -531,7 +531,7 @@
     </stdorder>
   </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>

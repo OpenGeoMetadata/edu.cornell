@@ -3,7 +3,7 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>U.S. Department of Commerce Bureau of the Census Geography Division</origin>
+        <origin>U.S. Census Bureau</origin>
         <pubdate>20030112</pubdate>
         <title>Census Tracts, New York, 1990</title>
         <geoform>vector digital data</geoform>
@@ -22,7 +22,7 @@
         TIGER/Line Census files. They can be used to join demographic data for use in conjunction
         with other Census data in geographic and demographic analysis.</purpose>
       <supplinf>To find out more about TIGER/Line files and other Census TIGER data base derived
-        data sets visit "TIGER®, TIGER/Line® and TIGER-Related Products" of the Census Bureau at:
+        data sets visit "TIGERï¿½, TIGER/Lineï¿½ and TIGER-Related Products" of the Census Bureau at:
         &lt;https://www.census.gov/geo/maps-data/data/tiger.html&gt;.</supplinf>
     </descript>
     <timeperd>
@@ -108,7 +108,7 @@
       <srcinfo>
         <srccite>
           <citeinfo>
-            <origin>U.S. Department of Commerce, Bureau of the Census, Geography Division</origin>
+            <origin>U.S. Census Bureau</origin>
             <pubdate>Unpublished material</pubdate>
             <title>TIGER/Line Files, 1998</title>
             <edition>1998</edition>
@@ -164,7 +164,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>4889</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -242,7 +242,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>3.01</transize>
+              <transize>2.95</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -326,7 +326,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210715</metd>
       <metc>
         <cntinfo>
           <cntorgp>

@@ -3,7 +3,8 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County ITS GIS Division</origin>
+        <origin>Ithaca-Tompkins County Transportation Council</origin>
+        <origin>Tompkins County ITS GIS Division</origin>
         <pubdate>2002</pubdate>
         <title>Zip Codes, Tompkins County NY, 2002</title>
         <geoform>vector digital data</geoform>
@@ -119,7 +120,7 @@
         <direct>Vector</direct>
         <ptvctinf>
           <sdtsterm>
-            <sdtstype>G-polygon</sdtstype>
+            <sdtstype>Polygon</sdtstype>
             <ptvctcnt>29</ptvctcnt>
           </sdtsterm>
         </ptvctinf>
@@ -190,7 +191,7 @@
               <formname>Shapefile</formname>
               <formcont>zipped shapefile</formcont>
               <filedec>zip</filedec>
-              <transize>0.08</transize>
+              <transize>0.03</transize>
             </digtinfo>
             <digtopt>
               <onlinopt>
@@ -274,7 +275,7 @@
           </digform><fees>None</fees></stdorder>
       </distinfo>
   <metainfo>
-      <metd>20190524</metd>
+      <metd>20210712</metd>
       <metc>
         <cntinfo>
           <cntorgp>
